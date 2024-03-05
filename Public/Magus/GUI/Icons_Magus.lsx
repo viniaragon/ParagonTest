@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV"> Line 1
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ArcaneEnhancement"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DevastatingSpellStrike_Force"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DevastatingSpellStrike_Necrotic"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DevastatingSpellStrike_Psychic"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DevastatingSpellStrike_Weapon"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ArcaneRestoration"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ExtendedSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ArcaneAccuracy"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_BodyOfMist"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_EmergencyTarge"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.1"/>
+                </node>
+				<node id="IconUV"> Line 2
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DistractingSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_StudentOfTheStaff"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CascadeCountermeasure"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ThunderingRetaliation"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ArcaneStrike"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_SpellSwipe"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ArcaneCloak"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CaptureMagic_Necrotic"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CaptureMagic_Force"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CaptureMagic_Psychic"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.1"/>
+                    <attribute id="V2" type="float" value="0.2"/>
+                </node>
+				<node id="IconUV"> Line 3
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CaptureMagic_Weapon"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RunicImpression_Bloodthirsty"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RunicImpression_Speed"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RunicImpression_Deathdrinking"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RunicImpression_Hooked"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RunicImpression_Wounding"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_CascadingRay"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DazzlingBlock"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_MeteoricSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_DimensionalDisappearance"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.2"/>
+                    <attribute id="V2" type="float" value="0.3"/>
+                </node>
+				<node id="IconUV"> Line 4
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_LungingSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ElementalBlade_Fire"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ElementalBlade_Cold"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ElementalBlade_Acid"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ElementalBlade_Lightning"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_RapidRecharge"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ChargeOfTheMagi"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_ElementalBlade_Thunder"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_Conflux_SpinningStaff"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_Conflux_ShootingStar"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.3"/>
+                    <attribute id="V2" type="float" value="0.4"/>
+                </node>
+				<node id="IconUV"> Line 5
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_Conflux_ShieldingStrike"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_PreternaturalParry"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_BaneBlade"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Magus_WhirlwindSpell"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_PreternaturalParry"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_BaneBlade"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SurpemeSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ResoundingCascade"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_WhirlwindSpell"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.4"/>
+                    <attribute id="V2" type="float" value="0.5"/>
+                </node>
+				<node id="IconUV"> Line 6
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellStrike"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_RangedSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_Force"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_Psychic"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_Weapon"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_Necrotic"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_SparklingTarge"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_LaughingShadow"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_InexorableIron"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCascade_TwistingTree"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.5"/>
+                    <attribute id="V2" type="float" value="0.6"/>
+                </node>
+				<node id="IconUV"> Line 7
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_UnerringSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneRestoration"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ExtendedSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_MagicSense"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_RaiseATome"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ExpansiveSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Druid"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Cleric"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Bard"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Warlock"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.6"/>
+                    <attribute id="V2" type="float" value="0.7"/>
+                </node>
+				<node id="IconUV"> Line 8
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Ranger"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellBlending_Paladin"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneAccuracy"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_StarlitEyes"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_DevastatingSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_BodyOfMist"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SteadySpellcasting"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_EmergencyTarge"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_DistractingSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_StudentOfTheStaff"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.7"/>
+                    <attribute id="V2" type="float" value="0.8"/>
+                </node>
+				<node id="IconUV"> Line 9
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_CascadeCounterMeasure"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_KnowledgeIsPower"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ThunderingRetaliation"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ShieldATome"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneStrike"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_SpellSwipe"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneCloak"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_CaptureMagic"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_RunicImpression"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_CascadingRay"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.8"/>
+                    <attribute id="V2" type="float" value="0.9"/>
+                </node>
+				<node id="IconUV"> Line 10
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_DazzlingBlock"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.1"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_MeteoricSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.1"/>
+                    <attribute id="U2" type="float" value="0.2"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_DimensionalDisappearance"/>
+                    <attribute id="U1" type="float" value="0.2"/>
+                    <attribute id="U2" type="float" value="0.3"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_LungingSpellStrike"/>
+                    <attribute id="U1" type="float" value="0.3"/>
+                    <attribute id="U2" type="float" value="0.4"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ElementalBlade"/>
+                    <attribute id="U1" type="float" value="0.4"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ChargeOfTheMagi"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.6"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneEnhancement"/>
+                    <attribute id="U1" type="float" value="0.6"/>
+                    <attribute id="U2" type="float" value="0.7"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_RapidRecharge"/>
+                    <attribute id="U1" type="float" value="0.7"/>
+                    <attribute id="U2" type="float" value="0.8"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_ArcaneShroud"/>
+                    <attribute id="U1" type="float" value="0.8"/>
+                    <attribute id="U2" type="float" value="0.9"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Passive_Magus_HastedAssault"/>
+                    <attribute id="U1" type="float" value="0.9"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.9"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="128"/>
+                    <attribute id="Width" type="int32" value="128"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/Icons_Magus.dds"/>
+                    <attribute id="UUID" type="FixedString" value="c1ee6f02-75dd-49db-9c0f-f45555555555"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="1280"/>
+                    <attribute id="Width" type="int32" value="1280"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

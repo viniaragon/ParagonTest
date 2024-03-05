@@ -1,0 +1,9 @@
+new entry "Paragon_Ability"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 18);Ability(Dexterity, 18);Ability(Constitution, 18);Ability(Intelligence, 17);Ability(Wisdom, 17);Ability(Charisma, 17)"
+
+new entry "Paragon_Proficiency"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(Skill,History);ProficiencyBonus(Skill,SleightOfHand);ProficiencyBonus(Skill,Nature);ProficiencyBonus(Skill,Investigation);ProficiencyBonus(Skill,Performance);ProficiencyBonus(Skill,Medicine);ProficiencyBonus(Skill,Perception);ProficiencyBonus(Skill,AnimalHandling);ProficiencyBonus(Skill,Athletics);ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Insight);ProficiencyBonus(Skill,Religion );ProficiencyBonus(Skill,Religion);ProficiencyBonus(Skill,Intimidation);ProficiencyBonus(Skill,Acrobatics);ProficiencyBonus(Skill,Arcana);ProficiencyBonus(Skill,Stealth);ProficiencyBonus(Skill,Survival);ProficiencyBonus(Skill,Deception)"

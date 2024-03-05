@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Magus Main Class level 1
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(Clubs);Proficiency(Daggers);Proficiency(Flails);Proficiency(HandCrossbows);Proficiency(HeavyArmor);Proficiency(Javelins);Proficiency(LightArmor);Proficiency(LightCrossbows);Proficiency(Longswords);Proficiency(Maces);Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(Morningstars);Proficiency(MusicalInstrument);Proficiency(Quarterstaffs);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Shields);Proficiency(Shortswords);Proficiency(Sickles);Proficiency(SimpleWeapons);Proficiency(Spears);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Wisdom)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Paragon_Proficiency;Paragon_Ability"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,18)"/>
+					<attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="452d6137-7720-4d04-b950-f45555555555"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Barbarian
+                                    <attribute id="Object" type="guid" value="193e92a1-415a-474a-b627-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Magus Main Class level 1 MULTICLASS
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+					<attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="6fe2ce7b-a1f8-4464-a445-f45555555555"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Sparkling Targe
+                                    <attribute id="Object" type="guid" value="193e92a1-415a-474a-b627-f45555555555"/>
+                                </node>
+								<node id="SubClass"> Inexorable Iron
+                                    <attribute id="Object" type="guid" value="35fc5a73-8d01-4e25-9af3-f45555555555"/>
+                                </node>
+								<node id="SubClass"> Laughing Shadow
+                                    <attribute id="Object" type="guid" value="802d3607-3597-4465-9ee8-f45555555555"/>
+                                </node>
+								<node id="SubClass"> Starlit Span
+                                    <attribute id="Object" type="guid" value="e69f184c-7135-4993-a4c5-f45555555555"/>
+                                </node>
+								<node id="SubClass"> Twisting Tree
+                                    <attribute id="Object" type="guid" value="02d5e23c-c5d8-48b9-a302-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 2
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="6d44070a-51cd-4573-afce-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+								<node id="SubClass"> Bard
+                                    <attribute id="Object" type="guid" value="35fc5a73-8d01-4e25-9af3-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 3
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="e9cf1123-1f22-445b-b071-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+								<node id="SubClass"> Cleric
+                                    <attribute id="Object" type="guid" value="802d3607-3597-4465-9ee8-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 4
+					<attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="1f430c8f-1d6e-4479-a8e2-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+								<node id="SubClass"> Druid
+                                    <attribute id="Object" type="guid" value="e69f184c-7135-4993-a4c5-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 5
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="796217d9-6e60-4d48-8986-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+								<node id="SubClass"> Fighter
+                                    <attribute id="Object" type="guid" value="02d5e23c-c5d8-48b9-a302-f45555555555"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="78929a23-ae4a-410e-b2d5-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Monk
+                                    <attribute id="Object" type="guid" value="ccc82c19-3bbb-4172-a85d-032330f7045e"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 7
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="cac16991-712f-40f3-8a2f-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Paladin
+                                    <attribute id="Object" type="guid" value="9da32d11-6f42-4e74-aa08-83bdc822ee7d"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 8
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="2dd2adba-2b1d-4bd1-875f-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Ranger
+                                    <attribute id="Object" type="guid" value="6a7fdd50-09bd-4790-a964-b4028268666c"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 9
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="039e1d83-209b-4a00-a94f-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Rogue
+                                    <attribute id="Object" type="guid" value="e7f29302-7176-4f9c-b708-d0399d1ea08c"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 10
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="a50b621a-e0d5-47b1-bfdb-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Sorcerer
+                                    <attribute id="Object" type="guid" value="e0cfec19-b10c-42e7-bdaa-1078a2121341"/>
+                                </node>
+
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 11
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="6cce49c4-f53e-48c0-a8d1-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Warlock
+                                    <attribute id="Object" type="guid" value="60da881c-0710-4528-a9c5-d7fadd856675"/>
+                                </node>
+
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 12
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="Paragon"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="1022addd-674a-4d95-85c5-f45555555555"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> Wizard
+                                    <attribute id="Object" type="guid" value="fa6f0064-f1fa-4155-9b2c-0b9b4fbb50c0"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Level 13
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="13"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Magus_UnlockPlaceholderSpellSlots_7;Magus_Spellslots_Level7"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Magus_Spellslots_Level5"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(704105b5-c7b3-4f1c-bf09-f45555555555,1,MagusArcana);SelectSpells(0d8f9189-8094-4aa7-9a87-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="80fff79c-0151-4aa8-ac89-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 14
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Extended_Spell_Strike"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(0d8f9189-8094-4aa7-9a87-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="b40c7bb4-1149-48c0-9f92-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 15
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="15"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Magus_UnlockPlaceholderSpellSlots_8;Magus_Spellslots_Level8"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Magus_Spellslots_Level6"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(598f5fe6-4e4d-4a7d-bbd8-f45555555555,1,MagusArcana);SelectSpells(c021525b-d640-4bd6-85f2-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="e5e0e32c-e816-4918-9579-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 16
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="16"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(c021525b-d640-4bd6-85f2-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="78e93c9f-c5df-4508-94af-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 17
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Magus_UnlockPlaceholderSpellSlots_9;Magus_Spellslots_Level9"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Magus_Spellslots_Level7"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e893a79e-a967-49a5-819f-f45555555555,1,MagusArcana);SelectSpells(2a41b091-c019-4dd0-b17e-f45555555555,1,0,,,,AlwaysPrepared);SelectSpells(9987d007-273e-4ad0-b5a7-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="d8c2d203-7017-4dad-9396-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 18
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="18"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(9e991a18-8ecd-4a9c-9021-f45555555555,4,BroadStudy);SelectSpells(9987d007-273e-4ad0-b5a7-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="3f1fef2d-3a15-4bd5-a4a7-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 19
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="19"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(456d68e1-e1fb-41e0-9797-f45555555555,1,MagusArcana);SelectSpells(9987d007-273e-4ad0-b5a7-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="118e1ba5-9d53-433d-9192-f45555555555"/>
+                </node>
+				<node id="Progression"> Level 20
+                    <attribute id="Boosts" type="LSString" value="ActionResource(ArcanePoolResource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="20"/>
+                    <attribute id="Name" type="LSString" value="Magus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TM_UnerringSpellStrike"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(d5e28da9-b97b-45d6-8f18-f45555555555,1,TrueMagus);SelectSpells(9987d007-273e-4ad0-b5a7-f45555555555,1,0)"/>
+                    <attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="7cc1a1db-01e3-40ec-9c12-f45555555555"/>
+                </node>
+                <node id="Progression"> Barbarian
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Rage,2,0);ActionResource(Rage,2,0);ActionResource(Rage,1,0);ActionResource(Rage,1,0);ActionResource(Rage,1,0);ActionResource(Rage,2,0);ActionResource(Rage,1,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="ParagonBarbarian"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Paragon_DangerSense;Paragon_RageUnlock;Paragon_LandsStride_Surfaces;Paragon_Unstable_Backlash;Paragon_RecklessAttack;Paragon_FastMovement;Paragon_RageFrenzyUnlock;Paragon_Rage_Armour_Message;Paragon_WildMagicRage;Paragon_LandsStride_DifficultTerrain;Paragon_LandsStride_Advantage;Paragon_FeralInstinct;Paragon_UnarmouredDefence_Barbarian;Paragon_ExtraAttack;Paragon_RelentlessRage;Paragon_BrutalCritical;Paragon_MindlessRage;Paragon_Rage_NoHeavyArmour_VFX"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(70e269c0-1905-4e47-9894-dba2aab5370c)"/>
+                    <attribute id="TableUUID" type="guid" value="3d2427dd-13de-4ed7-b90a-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="69fb0860-b829-4289-b42b-f45555555555"/>
+                </node>
+				
+                <node id="Progression"> Bard
+                    <attribute id="Boosts" type="LSString" value="ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);Attribute(UseMusicalInstrumentForCasting);ActionResource(BardicInspiration,3,0);Attribute(UseMusicalInstrumentForCasting);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(BardicInspiration,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);Attribute(UseMusicalInstrumentForCasting);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(BardicInspiration,1,0);ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="ParagonBard"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Paragon_BardicInspiration_d8;Paragon_CombatInspiration;Paragon_BardicInspiration;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_BardSpellcasting;Paragon_UnlockedSpellSlotLevel2;Paragon_JackOfAllTrades;Paragon_BardicInspiration_d10;Paragon_ExtraAttack;Paragon_CuttingWords;Paragon_FontOfInspiration"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(11532744-bf91-4391-80ea-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="cf3959f3-e13b-4a88-9e43-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="10fb2641-d2da-44c2-9d45-f45555555555"/>
+                </node>
+				
+				<node id="Progression"> Cleric
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,3);ActionResource(ChannelDivinity,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(WarPriestActionPoint,3,0);ActionResource(WarPriestActionPoint,1,0);ActionResource(WarPriestActionPoint,1,0);ActionResource(WarPriestActionPoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="ParagonCleric"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_WardingFlare_Improved;Paragon_WrathOfTheStorm;Paragon_AcolyteOfNature;Paragon_DivineIntervention;Paragon_Divine_Strike_Tempest_Toggle;Paragon_DestroyUndead;Paragon_ThunderboltStrike;Paragon_UnlockedSpellSlotLevel1;Paragon_WarPriest;Paragon_Divine_Strike_Trickery_Toggle;Paragon_WarGodsBlessing;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2;Paragon_DiscipleOfLife;Paragon_PotentSpellcasting;Paragon_BlessedHealer;Paragon_DampenElements;Paragon_DomainSpells;Paragon_Divine_Strike_Life_Toggle;Paragon_WardingFlare;Paragon_Divine_Strike_War_Toggle;Paragon_DestructiveWrath;Paragon_Divine_Strike_Nature_Toggle"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(d29e629a-ce83-44ee-98b1-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="8c7eb2ed-a076-4efa-82bd-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="7650a6e5-4199-4761-80e6-f45555555555"/>
+                </node>
+				
+				<node id="Progression"> Druid
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="ParagonDruid"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_WildStrike;Paragon_WildStrike_2;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(e517c6b7-4e71-484a-9609-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="f9ddd43c-0bb2-4d80-8fcf-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="7ea8007f-37ca-4912-becc-f45555555555"/>
+                </node>
+				
+				<node id="Progression"> Fighter
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SuperiorityDie,4,0);ActionResource(SuperiorityDie,1,0);ActionResource(SuperiorityDie,4,0)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="ParagonFighter"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Indomitable;Paragon_ExtraAttack_2;Paragon_ImprovedCombatSuperiority;Paragon_UnlockedSpellSlotLevel1;Paragon_EldritchStrike;Paragon_UnlockedSpellSlotLevel2;Paragon_RemarkableAthlete_Proficiency;Paragon_ExtraAttack;Paragon_WarMagic;Paragon_ImprovedCritical;Paragon_RemarkableAthlete_Jump"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(291a55ed-ec20-405d-b7e4-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="58498715-41de-4247-a6c1-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="9a74e19b-392a-4b36-9e79-f45555555555"/>
+                </node>
+
+                <node id="Progression"> Monk
+                    <attribute id="Boosts" type="LSString" value="ActionResource(KiPoint,2,0);ActionResource(KiPoint,2,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0)"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ParagonMonk"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_SlowFall;Paragon_PurityOfBody;Paragon_UnarmoredMovement_2;Paragon_MartialArts_DextrousUnarmedAttacks;Paragon_Manifestation_of_Soul;Paragon_Monk_SoundSwitch;Paragon_StillnessOfMind;Paragon_UnarmoredDefense_Monk;Paragon_Manifestation_of_Body;Paragon_ExtraAttack;Paragon_MartialArts_BonusUnarmedStrike;Paragon_ImprovedElementalCasting;Paragon_UnarmoredMovement_DifficultTerrain;Paragon_Evasion;Paragon_Manifestation_of_Mind;Paragon_KiEmpoweredStrikes;Paragon_DeflectMissiles;Paragon_MartialArts_UnarmedDamage;Paragon_Tranquility;Paragon_UnarmoredMovement_1;Paragon_UnarmoredMovement_3;Paragon_FlurryOfBlowsUnlock"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(948bfc3f-217d-4eb9-ac8c-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="3989b6a0-6458-4677-a97c-b9582f53666b"/>
+                    <attribute id="UUID" type="guid" value="1d88b514-ae56-4d7d-b550-1c9fe710acf3"/>
+                </node>
+
+                <node id="Progression"> Paladin
+                    <attribute id="Boosts" type="LSString" value="ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(LayOnHandsCharge,1,0);ActionResource(SpellSlot,1,3);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(LayOnHandsCharge,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="ParagonPaladin"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_RelentlessAvenger;Paragon_Oath_Ancients_Tenents;Paragon_DivineHealth;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel2;Paragon_Oath_Devotion_Tenents;Paragon_ExtraAttack;Paragon_ImprovedDivineSmite;Paragon_Smite_Divine;Paragon_Oath_Vengeance_Tenents"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(7a2814ba-9a4c-4a9d-809c-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="6f6ea9bb-ece9-4dea-98ea-b6611164eaee"/>
+                    <attribute id="UUID" type="guid" value="c6035d18-1b2c-4c3b-8ef4-db9fb1e443c2"/>
+                </node>
+
+                <node id="Progression"> Ranger
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="ParagonRanger"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_LandsStride_Surfaces;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_LandsStride_DifficultTerrain;Paragon_CompanionsBond;Paragon_UnlockedSpellSlotLevel2;Paragon_ExceptionalTraining;Paragon_IronMind;Paragon_DreadAmbusher;Paragon_SuperiorDarkvision;Paragon_ExtraAttack;Paragon_BestialFury;Paragon_StalkersFlurry"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(7f0b51ee-540e-4104-891d-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="1ccbea67-6fa3-42ce-af86-88518b54fa6b"/>
+                    <attribute id="UUID" type="guid" value="18dccb89-4975-479c-a740-16842f404727"/>
+                </node>
+
+                <node id="Progression"> Rouge
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SneakAttack_Charge,1,0);ActionResource(SneakAttack_Charge,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="ParagonRouge"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_MageHandLegerdemain;Paragon_FastHands;Paragon_SecondStoryWork;Paragon_MagicalAmbush;Paragon_UncannyDodge;Paragon_Assassinate_Initiative;Paragon_Evasion;Paragon_ReliableTalent;Paragon_UnlockedSpellSlotLevel1;Paragon_SneakAttack_Unlock;Paragon_UnlockedSpellSlotLevel2;Paragon_Assassinate_Resource;Paragon_Assassinate_Ambush"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(77191793-bdc8-4bc2-bb25-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="b7c044e1-db8b-47ad-8161-2300a8bcd7c8"/>
+                    <attribute id="UUID" type="guid" value="fc537e38-edf3-46ce-8a2c-af9d03fcfb73"/>
+                </node>
+
+                <node id="Progression"> Sorcerer
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,3);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,6);ActionResource(SorceryPoint,1,0);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,2);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,2,3);ActionResource(SorceryPoint,1,0);IncreaseMaxHP(ClassLevel(Sorcerer));ActionResource(TidesOfChaos,1,0)"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="ParagonSorcerer"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_DraconicResilience;Paragon_ElementalAffinity_Resistance_Check;Paragon_ControlledChaos;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_WildMagic;Paragon_ElementalAffinity_Damage;Paragon_UnlockedSpellSlotLevel2;Paragon_TidesOfChaos_Unlock;Paragon_StormsFury;Paragon_HeartOfTheStorm;Paragon_TempestuousMagic;Paragon_BendLuck;Paragon_HeartOfTheStorm_Resistance;Paragon_TidesOfChaos"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(70e8c5aa-a8ae-4f54-acd9-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="43c2064c-9b07-404c-b6ba-4a7eadc34270"/>
+                    <attribute id="UUID" type="guid" value="cde6d3ea-81b3-4ddd-964b-a918733edccb"/>
+                </node>
+
+                <node id="Progression"> Warlock
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,2,4);ActionResourceOverride(WarlockSpellSlot,0,3);ActionResource(WarlockSpellSlot,2,5);ActionResourceOverride(WarlockSpellSlot,0,4);ActionResource(WarlockSpellSlot,1,5);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1);ActionResource(WarlockSpellSlot,2,3);ActionResourceOverride(WarlockSpellSlot,0,2)"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="ParagonWarlock"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_BeguilingDefenses;Paragon_ThirstingBlade_Blade;Paragon_FiendishResilience;Paragon_ThirstingBlade_Tome;Paragon_MistyEscape;Paragon_DarkOnesOwnLuck;Paragon_ClarifiedMortality;Paragon_UnlockedWarlockSpellSlotLevel3;Paragon_EntropicWard;Paragon_UnlockedWarlockSpellSlotLevel1;Paragon_Thought_Shield_Psychic_Resistance;Paragon_DarkOnesBlessing;Paragon_Thought_Shield_Psychic_Reflection;Paragon_UnlockedWarlockSpellSlotLevel2;Paragon_ThirstingBlade_Check"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(3dff0d07-cbee-493c-9661-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="ceb808e2-978c-4d2b-a4e4-81e7f3bf6ac9"/>
+                    <attribute id="UUID" type="guid" value="e0b3be47-12f8-451b-930e-39191434431e"/>
+                </node>
+
+                <node id="Progression"> Wizard
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,2,1);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(ArcaneRecoveryPoint,1,0);Savant(Abjuration);Savant(Abjuration);Savant(Conjuration);Savant(Divination);Savant(Enchantment);Savant(Evocation);Savant(Necromancy);Savant(Illusion);Savant(Transmutation"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="ParagonWizard"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_ProjectedWard;Paragon_TransmutationStone;Paragon_ArcaneWard_Cast;Paragon_SculptSpells;Paragon_GrimHarvest;Paragon_InstinctiveCharm;Paragon_EmpoweredEvocation;Paragon_ImprovedAbjuration;Paragon_ImprovedMinorIllusion;Paragon_UnlockedSpellSlotLevel1;Paragon_UndeadThrall_FreeSpell;Paragon_TransmutationStone_Activation;Paragon_FocusedConjuration;Paragon_ExperimentalAlchemy;Paragon_ArcaneWard;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2;Paragon_ExpertDivination;Paragon_InuredtoUndeath;Paragon_PotentCantrip;Paragon_Portent;Paragon_IllusorySelf;Paragon_UndeadThrall_BetterSummon;Paragon_SplitEnchantment;Paragon_UndeadThrall_ExtraSummon;Paragon_Shapechange"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="AddSpells(e07c5b4b-22ee-4906-bb53-f45555555555)"/>
+                    <attribute id="TableUUID" type="guid" value="c48e7079-afa6-4db5-9ab8-5d30b055c969"/>
+                    <attribute id="UUID" type="guid" value="d92b17ac-42e3-4f96-815e-e2386248e107"/>
+                </node>
+				
+            </children>
+        </node>
+    </region>
+</save>

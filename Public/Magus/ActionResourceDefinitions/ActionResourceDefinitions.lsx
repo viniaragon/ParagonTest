@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="600"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="2599813974df8b7dadd4b5dfd1b7607060c7f" version="1"/>
+					<attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="99d7b8be73b16957796985f19d597e5b6cb0c" version="1"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ArcanePoolResource"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="94f9743a-ea62-4c94-91e0-f45555555555"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h8c3b14ceg67f2g4b78ga687g6396f4e15597" version="1"/>
+					<attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h66733c15g9a0bg425dgae98ga396bfe0282e" version="1"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ConfluxFocus"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="2e7bcb7f-2449-4618-8168-f45555555555"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h6ba89950gb4e2g4363ga6eagd245088261ad" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4e0bbc17g498dg4eebgbd9fg439e25625039" version="2"/>
+                    <attribute id="IsSpellResource" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="9"/>
+                    <attribute id="Name" type="FixedString" value="PlaceholderSpellSlot"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="56d5658b-0c07-4a8d-9d1c-f45555555555"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="Your resource for taking the Attack, Dash, Hide or Disengage actions through the Haste spell."/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="Haste Action"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_0_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="HasteActionPoint"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="99ae9d82-309d-4f39-8166-016abcc33f2e"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

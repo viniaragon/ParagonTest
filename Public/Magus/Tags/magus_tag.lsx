@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="A Spellsword who combines the power of both the Arcane and the Blade" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="f52b7e029236838ab1ab3a85a223eb544c654" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="d3dce3e0523e38fad7f10d10b9f5661c07244" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="MAGUS" />
+			<attribute id="UUID" type="guid" value="426e8577-8183-4a75-864e-f45555555555" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

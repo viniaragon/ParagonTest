@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="323"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level5" type="LSString" value="1d6"/>
+                    <attribute id="Level10" type="LSString" value="1d8"/>
+                    <attribute id="Level14" type="LSString" value="1d10"/>
+                    <attribute id="Level17" type="LSString" value="1d12"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneCascade"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="397ae810-bd05-4796-a165-f45555555555"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2"/>
+                    <attribute id="Level5" type="LSString" value="2.5"/>
+                    <attribute id="Level10" type="LSString" value="3"/>
+                    <attribute id="Level14" type="LSString" value="3.5"/>
+                    <attribute id="Level17" type="LSString" value="4"/>
+                    <attribute id="Name" type="FixedString" value="DevastatingSpellStrikeRadius"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="8762cf21-c9f6-481c-8f24-f45555555555"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2.5"/>
+                    <attribute id="Level5" type="LSString" value="3.25"/>
+                    <attribute id="Level10" type="LSString" value="4"/>
+                    <attribute id="Level14" type="LSString" value="4.75"/>
+                    <attribute id="Level17" type="LSString" value="5.5"/>
+                    <attribute id="Name" type="FixedString" value="ThunderingStrikeRadius"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555"/>
+                    <attribute id="UUID" type="guid" value="0e47b592-36e4-46cb-9d74-f45555555555"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4" />
+                    <attribute id="Level10" type="LSString" value="1d8" />
+                    <attribute id="Level11" type="LSString" value="1d8" />
+                    <attribute id="Level12" type="LSString" value="1d8" />
+                    <attribute id="Level2" type="LSString" value="1d4" />
+                    <attribute id="Level3" type="LSString" value="1d6" />
+                    <attribute id="Level4" type="LSString" value="1d6" />
+                    <attribute id="Level5" type="LSString" value="1d6" />
+                    <attribute id="Level6" type="LSString" value="1d6" />
+                    <attribute id="Level7" type="LSString" value="1d6" />
+                    <attribute id="Level8" type="LSString" value="1d6" />
+                    <attribute id="Level9" type="LSString" value="1d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_MartialArts" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="6cbd3a2d-ce36-466f-ae1e-cbfac1a5512a" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d10" />
+                    <attribute id="Level10" type="LSString" value="2d10" />
+                    <attribute id="Level11" type="LSString" value="2d10" />
+                    <attribute id="Level12" type="LSString" value="2d10" />
+                    <attribute id="Level2" type="LSString" value="1d10" />
+                    <attribute id="Level3" type="LSString" value="1d10" />
+                    <attribute id="Level4" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="1d10" />
+                    <attribute id="Level6" type="LSString" value="1d10" />
+                    <attribute id="Level7" type="LSString" value="1d10" />
+                    <attribute id="Level8" type="LSString" value="1d10" />
+                    <attribute id="Level9" type="LSString" value="2d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_RayOfFrost_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="bbc591bf-2ae6-4c99-9774-78193edc4d8e" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d10" />
+                    <attribute id="Level10" type="LSString" value="2d10" />
+                    <attribute id="Level11" type="LSString" value="2d10" />
+                    <attribute id="Level12" type="LSString" value="2d10" />
+                    <attribute id="Level2" type="LSString" value="1d10" />
+                    <attribute id="Level3" type="LSString" value="1d10" />
+                    <attribute id="Level4" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="1d10" />
+                    <attribute id="Level6" type="LSString" value="1d10" />
+                    <attribute id="Level7" type="LSString" value="1d10" />
+                    <attribute id="Level8" type="LSString" value="1d10" />
+                    <attribute id="Level9" type="LSString" value="2d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_FangsOfTheFireSnake" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="14d314d7-e9a1-4022-938e-04e1472d5bc3" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d8" />
+                    <attribute id="Level10" type="LSString" value="3d8" />
+                    <attribute id="Level11" type="LSString" value="3d8" />
+                    <attribute id="Level12" type="LSString" value="3d8" />
+                    <attribute id="Level2" type="LSString" value="2d8" />
+                    <attribute id="Level3" type="LSString" value="2d8" />
+                    <attribute id="Level4" type="LSString" value="2d8" />
+                    <attribute id="Level5" type="LSString" value="2d8" />
+                    <attribute id="Level6" type="LSString" value="2d8" />
+                    <attribute id="Level7" type="LSString" value="2d8" />
+                    <attribute id="Level8" type="LSString" value="2d8" />
+                    <attribute id="Level9" type="LSString" value="3d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_Thunderwave_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="b31707cc-d82f-467c-87b2-01ce481c66bc" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d10" />
+                    <attribute id="Level10" type="LSString" value="4d10" />
+                    <attribute id="Level11" type="LSString" value="4d10" />
+                    <attribute id="Level12" type="LSString" value="4d10" />
+                    <attribute id="Level2" type="LSString" value="3d10" />
+                    <attribute id="Level3" type="LSString" value="3d10" />
+                    <attribute id="Level4" type="LSString" value="3d10" />
+                    <attribute id="Level5" type="LSString" value="3d10" />
+                    <attribute id="Level6" type="LSString" value="3d10" />
+                    <attribute id="Level7" type="LSString" value="3d10" />
+                    <attribute id="Level8" type="LSString" value="3d10" />
+                    <attribute id="Level9" type="LSString" value="4d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_FistOfUnbrokenAir" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="717bfb36-98cb-4a05-9f25-b47b39b40258" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d8" />
+                    <attribute id="Level10" type="LSString" value="3d8" />
+                    <attribute id="Level11" type="LSString" value="3d8" />
+                    <attribute id="Level12" type="LSString" value="3d8" />
+                    <attribute id="Level2" type="LSString" value="2d8" />
+                    <attribute id="Level3" type="LSString" value="2d8" />
+                    <attribute id="Level4" type="LSString" value="2d8" />
+                    <attribute id="Level5" type="LSString" value="2d8" />
+                    <attribute id="Level6" type="LSString" value="2d8" />
+                    <attribute id="Level7" type="LSString" value="2d8" />
+                    <attribute id="Level8" type="LSString" value="2d8" />
+                    <attribute id="Level9" type="LSString" value="3d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_ChromaticOrb_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="1d2d7602-ac84-4afb-b9de-89589cd744da" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d8" />
+                    <attribute id="Level10" type="LSString" value="4d8" />
+                    <attribute id="Level11" type="LSString" value="4d8" />
+                    <attribute id="Level12" type="LSString" value="4d8" />
+                    <attribute id="Level2" type="LSString" value="3d8" />
+                    <attribute id="Level3" type="LSString" value="3d8" />
+                    <attribute id="Level4" type="LSString" value="3d8" />
+                    <attribute id="Level5" type="LSString" value="3d8" />
+                    <attribute id="Level6" type="LSString" value="3d8" />
+                    <attribute id="Level7" type="LSString" value="3d8" />
+                    <attribute id="Level8" type="LSString" value="3d8" />
+                    <attribute id="Level9" type="LSString" value="4d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_ChromaticOrb_Thunder_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="94e342a2-8968-4543-b0cc-e906c35e28ca" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d6" />
+                    <attribute id="Level10" type="LSString" value="4d6" />
+                    <attribute id="Level11" type="LSString" value="4d6" />
+                    <attribute id="Level12" type="LSString" value="4d6" />
+                    <attribute id="Level2" type="LSString" value="3d6" />
+                    <attribute id="Level3" type="LSString" value="3d6" />
+                    <attribute id="Level4" type="LSString" value="3d6" />
+                    <attribute id="Level5" type="LSString" value="3d6" />
+                    <attribute id="Level6" type="LSString" value="3d6" />
+                    <attribute id="Level7" type="LSString" value="3d6" />
+                    <attribute id="Level8" type="LSString" value="3d6" />
+                    <attribute id="Level9" type="LSString" value="4d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_BurningHands_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="f4ba0d91-2569-4216-884a-2dd7048750c8" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d10" />
+                    <attribute id="Level10" type="LSString" value="2d10" />
+                    <attribute id="Level11" type="LSString" value="2d10" />
+                    <attribute id="Level12" type="LSString" value="2d10" />
+                    <attribute id="Level2" type="LSString" value="1d10" />
+                    <attribute id="Level3" type="LSString" value="1d10" />
+                    <attribute id="Level4" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="1d10" />
+                    <attribute id="Level6" type="LSString" value="1d10" />
+                    <attribute id="Level7" type="LSString" value="1d10" />
+                    <attribute id="Level8" type="LSString" value="1d10" />
+                    <attribute id="Level9" type="LSString" value="2d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_ShockingGrasp_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="49dd44d5-b35a-4023-a820-a4442f20736a" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d10" />
+                    <attribute id="Level10" type="LSString" value="4d10" />
+                    <attribute id="Level11" type="LSString" value="4d10" />
+                    <attribute id="Level12" type="LSString" value="4d10" />
+                    <attribute id="Level2" type="LSString" value="3d10" />
+                    <attribute id="Level3" type="LSString" value="3d10" />
+                    <attribute id="Level4" type="LSString" value="3d10" />
+                    <attribute id="Level5" type="LSString" value="3d10" />
+                    <attribute id="Level6" type="LSString" value="3d10" />
+                    <attribute id="Level7" type="LSString" value="3d10" />
+                    <attribute id="Level8" type="LSString" value="3d10" />
+                    <attribute id="Level9" type="LSString" value="4d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_WaterWhip" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="61dce755-ec5c-452b-a665-0ec55b6c62d9" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d10" />
+                    <attribute id="Level10" type="LSString" value="2d10" />
+                    <attribute id="Level11" type="LSString" value="2d10" />
+                    <attribute id="Level12" type="LSString" value="2d10" />
+                    <attribute id="Level2" type="LSString" value="1d10" />
+                    <attribute id="Level3" type="LSString" value="1d10" />
+                    <attribute id="Level4" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="1d10" />
+                    <attribute id="Level6" type="LSString" value="1d10" />
+                    <attribute id="Level7" type="LSString" value="1d10" />
+                    <attribute id="Level8" type="LSString" value="1d10" />
+                    <attribute id="Level9" type="LSString" value="2d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_IceKnife_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="0b9e1e6c-2e50-437e-918b-dd76f82dc20e" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d8" />
+                    <attribute id="Level10" type="LSString" value="4d8" />
+                    <attribute id="Level11" type="LSString" value="4d8" />
+                    <attribute id="Level12" type="LSString" value="4d8" />
+                    <attribute id="Level2" type="LSString" value="3d8" />
+                    <attribute id="Level3" type="LSString" value="3d8" />
+                    <attribute id="Level4" type="LSString" value="3d8" />
+                    <attribute id="Level5" type="LSString" value="3d8" />
+                    <attribute id="Level6" type="LSString" value="3d8" />
+                    <attribute id="Level7" type="LSString" value="3d8" />
+                    <attribute id="Level8" type="LSString" value="3d8" />
+                    <attribute id="Level9" type="LSString" value="4d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_Shatter_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="02e86054-d75f-4b89-8ae4-7acac8a9c43b" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3" />
+                    <attribute id="Level10" type="LSString" value="4" />
+                    <attribute id="Level11" type="LSString" value="4" />
+                    <attribute id="Level12" type="LSString" value="4" />
+                    <attribute id="Level2" type="LSString" value="3" />
+                    <attribute id="Level3" type="LSString" value="3" />
+                    <attribute id="Level4" type="LSString" value="3" />
+                    <attribute id="Level5" type="LSString" value="3" />
+                    <attribute id="Level6" type="LSString" value="3" />
+                    <attribute id="Level7" type="LSString" value="3" />
+                    <attribute id="Level8" type="LSString" value="3" />
+                    <attribute id="Level9" type="LSString" value="4" />
+                    <attribute id="Name" type="FixedString" value="Paragon_ScorchingRay_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="fe7431d2-9bd4-408f-a9fe-d00c6cf002d7" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1" />
+                    <attribute id="Level10" type="LSString" value="2" />
+                    <attribute id="Level11" type="LSString" value="2" />
+                    <attribute id="Level12" type="LSString" value="2" />
+                    <attribute id="Level2" type="LSString" value="1" />
+                    <attribute id="Level3" type="LSString" value="1" />
+                    <attribute id="Level4" type="LSString" value="1" />
+                    <attribute id="Level5" type="LSString" value="1" />
+                    <attribute id="Level6" type="LSString" value="1" />
+                    <attribute id="Level7" type="LSString" value="1" />
+                    <attribute id="Level8" type="LSString" value="1" />
+                    <attribute id="Level9" type="LSString" value="2" />
+                    <attribute id="Name" type="FixedString" value="Paragon_HoldPerson_Monk" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="1242b027-8934-437e-8827-a89ea16e63a5" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4" />
+                    <attribute id="Level10" type="LSString" value="1d8" />
+                    <attribute id="Level11" type="LSString" value="1d8" />
+                    <attribute id="Level12" type="LSString" value="1d8" />
+                    <attribute id="Level2" type="LSString" value="1d4" />
+                    <attribute id="Level3" type="LSString" value="1d4" />
+                    <attribute id="Level4" type="LSString" value="1d4" />
+                    <attribute id="Level5" type="LSString" value="1d4" />
+                    <attribute id="Level6" type="LSString" value="1d6" />
+                    <attribute id="Level7" type="LSString" value="1d6" />
+                    <attribute id="Level8" type="LSString" value="1d6" />
+                    <attribute id="Level9" type="LSString" value="1d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_HaloOfSpores" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="d9cebd08-eb75-498b-bb3a-a9fe62d48e45" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_SpiritualWeapon_1d8" />
+                    <attribute id="UUID" type="guid" value="d756c769-55ec-4138-a5d3-5c2e35f40c63" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_SpiritualWeapon_2d8" />
+                    <attribute id="UUID" type="guid" value="3d01c019-fbf5-40dd-a042-bf5231de79fe" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="3d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_SpiritualWeapon_3d8" />
+                    <attribute id="UUID" type="guid" value="ba0933a3-77f1-43b9-b0a2-91313549bd25" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="1" />
+                    <attribute id="Level1" type="LSString" value="0" />
+                    <attribute id="Level10" type="LSString" value="1d6" />
+                    <attribute id="Level11" type="LSString" value="1d6" />
+                    <attribute id="Level12" type="LSString" value="1d8" />
+                    <attribute id="Level2" type="LSString" value="0" />
+                    <attribute id="Level3" type="LSString" value="0" />
+                    <attribute id="Level4" type="LSString" value="1d4" />
+                    <attribute id="Level5" type="LSString" value="1d4" />
+                    <attribute id="Level6" type="LSString" value="1d4" />
+                    <attribute id="Level7" type="LSString" value="1d4" />
+                    <attribute id="Level8" type="LSString" value="1d6" />
+                    <attribute id="Level9" type="LSString" value="1d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_WildShapeDamageLow" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="ade98adf-cb25-48c6-8a38-c875491b2281" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="1" />
+                    <attribute id="Level1" type="LSString" value="0" />
+                    <attribute id="Level10" type="LSString" value="1d8" />
+                    <attribute id="Level11" type="LSString" value="1d8" />
+                    <attribute id="Level12" type="LSString" value="1d10" />
+                    <attribute id="Level2" type="LSString" value="0" />
+                    <attribute id="Level3" type="LSString" value="0" />
+                    <attribute id="Level4" type="LSString" value="1d6" />
+                    <attribute id="Level5" type="LSString" value="1d6" />
+                    <attribute id="Level6" type="LSString" value="1d6" />
+                    <attribute id="Level7" type="LSString" value="1d6" />
+                    <attribute id="Level8" type="LSString" value="1d8" />
+                    <attribute id="Level9" type="LSString" value="1d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_WildShapeDamageMedium" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="c807b1f8-0169-4180-81f8-a93d53519ae4" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4" />
+                    <attribute id="Level10" type="LSString" value="3d4" />
+                    <attribute id="Level2" type="LSString" value="1d4" />
+                    <attribute id="Level3" type="LSString" value="1d4" />
+                    <attribute id="Level4" type="LSString" value="1d4" />
+                    <attribute id="Level5" type="LSString" value="2d4" />
+                    <attribute id="Level6" type="LSString" value="2d4" />
+                    <attribute id="Level7" type="LSString" value="2d4" />
+                    <attribute id="Level8" type="LSString" value="2d4" />
+                    <attribute id="Level9" type="LSString" value="2d4" />
+                    <attribute id="Name" type="FixedString" value="Paragon_D4Cantrip" />
+                    <attribute id="UUID" type="guid" value="caf9a97a-7e73-4ca9-9306-80b2d930e8c9" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6" />
+                    <attribute id="Level10" type="LSString" value="3d6" />
+                    <attribute id="Level2" type="LSString" value="1d6" />
+                    <attribute id="Level3" type="LSString" value="1d6" />
+                    <attribute id="Level4" type="LSString" value="1d6" />
+                    <attribute id="Level5" type="LSString" value="2d6" />
+                    <attribute id="Level6" type="LSString" value="2d6" />
+                    <attribute id="Level7" type="LSString" value="2d6" />
+                    <attribute id="Level8" type="LSString" value="2d6" />
+                    <attribute id="Level9" type="LSString" value="2d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_D6Cantrip" />
+                    <attribute id="UUID" type="guid" value="8e1cc90c-6945-4bd5-94a7-3a9aea24e631" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Level10" type="LSString" value="3d8" />
+                    <attribute id="Level2" type="LSString" value="1d8" />
+                    <attribute id="Level3" type="LSString" value="1d8" />
+                    <attribute id="Level4" type="LSString" value="1d8" />
+                    <attribute id="Level5" type="LSString" value="2d8" />
+                    <attribute id="Level6" type="LSString" value="2d8" />
+                    <attribute id="Level7" type="LSString" value="2d8" />
+                    <attribute id="Level8" type="LSString" value="2d8" />
+                    <attribute id="Level9" type="LSString" value="2d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_D8Cantrip" />
+                    <attribute id="UUID" type="guid" value="0145843f-ca80-42c6-86f8-8e1138371473" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d10" />
+                    <attribute id="Level10" type="LSString" value="3d10" />
+                    <attribute id="Level2" type="LSString" value="1d10" />
+                    <attribute id="Level3" type="LSString" value="1d10" />
+                    <attribute id="Level4" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="2d10" />
+                    <attribute id="Level6" type="LSString" value="2d10" />
+                    <attribute id="Level7" type="LSString" value="2d10" />
+                    <attribute id="Level8" type="LSString" value="2d10" />
+                    <attribute id="Level9" type="LSString" value="2d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_D10Cantrip" />
+                    <attribute id="UUID" type="guid" value="ccfc729f-a8dd-41db-97ed-be88bd2f2cbe" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d12" />
+                    <attribute id="Level10" type="LSString" value="3d12" />
+                    <attribute id="Level2" type="LSString" value="1d12" />
+                    <attribute id="Level3" type="LSString" value="1d12" />
+                    <attribute id="Level4" type="LSString" value="1d12" />
+                    <attribute id="Level5" type="LSString" value="2d12" />
+                    <attribute id="Level6" type="LSString" value="2d12" />
+                    <attribute id="Level7" type="LSString" value="2d12" />
+                    <attribute id="Level8" type="LSString" value="2d12" />
+                    <attribute id="Level9" type="LSString" value="2d12" />
+                    <attribute id="Name" type="FixedString" value="Paragon_D12Cantrip" />
+                    <attribute id="UUID" type="guid" value="316d53f9-3a7b-4830-97b2-1686860bf521" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="1" />
+                    <attribute id="Level1" type="LSString" value="1" />
+                    <attribute id="Level10" type="LSString" value="3" />
+                    <attribute id="Level2" type="LSString" value="1" />
+                    <attribute id="Level3" type="LSString" value="1" />
+                    <attribute id="Level4" type="LSString" value="1" />
+                    <attribute id="Level5" type="LSString" value="2" />
+                    <attribute id="Level6" type="LSString" value="2" />
+                    <attribute id="Level7" type="LSString" value="2" />
+                    <attribute id="Level8" type="LSString" value="2" />
+                    <attribute id="Level9" type="LSString" value="2" />
+                    <attribute id="Name" type="FixedString" value="Paragon_EldritchBlast" />
+                    <attribute id="UUID" type="guid" value="5dd0f05a-f186-4c64-a379-8230b8039d36" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2" />
+                    <attribute id="Level5" type="LSString" value="3" />
+                    <attribute id="Level9" type="LSString" value="4" />
+                    <attribute id="Name" type="FixedString" value="Paragon_StandardProficiencyBonusScale" />
+                    <attribute id="UUID" type="guid" value="d576fe36-cd24-43db-822a-99e0d4a01423" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6" />
+                    <attribute id="Level11" type="LSString" value="6d6" />
+                    <attribute id="Level3" type="LSString" value="2d6" />
+                    <attribute id="Level5" type="LSString" value="3d6" />
+                    <attribute id="Level7" type="LSString" value="4d6" />
+                    <attribute id="Level9" type="LSString" value="5d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_SneakAttack" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="29e49ba2-dae9-4257-bf78-13cbfddd6f8f" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6" />
+                    <attribute id="Level10" type="LSString" value="1d10" />
+                    <attribute id="Level5" type="LSString" value="1d8" />
+                    <attribute id="Name" type="FixedString" value="Paragon_BardicInspiration" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="f9c333ce-d555-4f51-8fdc-c4443d6188ac" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="1d8" />
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Level10" type="LSString" value="1d10" />
+                    <attribute id="Name" type="FixedString" value="Paragon_SuperiorityDie" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="88cc6d06-bc3a-443c-817e-c9bb5b45545c" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="2" />
+                    <attribute id="Level1" type="LSString" value="2" />
+                    <attribute id="Level9" type="LSString" value="3" />
+                    <attribute id="Name" type="FixedString" value="Paragon_RageDamage" />
+                    <attribute id="PreferredClassUUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555" />
+                    <attribute id="UUID" type="guid" value="aa7586a8-4ea9-49df-b857-ef08569de4ca" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d6" />
+                    <attribute id="Level11" type="LSString" value="4d6" />
+                    <attribute id="Level6" type="LSString" value="3d6" />
+                    <attribute id="Name" type="FixedString" value="Paragon_BreathWeapon" />
+                    <attribute id="UUID" type="guid" value="2f4efac8-b292-4337-97a0-b63102693a76" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

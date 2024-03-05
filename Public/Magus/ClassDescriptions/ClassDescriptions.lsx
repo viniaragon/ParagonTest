@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="7" build="406"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription"> Main Class
+                    <attribute id="BaseHp" type="int32" value="12"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h11b4ee7egb42bg4194g8367g82d678fc0c00" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="heeb6ddb3g39efg4709g8e06gc039ef84f180" version="1"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="7"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Paragon"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+					<attribute id="SpellList" type="guid" value="ac647ad9-e02b-4680-833a-b488ad83e3e4"/>
+                    <attribute id="UUID" type="guid" value="04a74cef-c7a8-44d0-996c-f45555555555"/>
+					<children>
+                        <node id="Tags">Barbarian
+                            <attribute id="Object" type="guid" value="02913f9a-f696-40cf-acdf-32032afab32c"/>
+                        </node>
+                        <node id="Tags">BerserkerPath
+                            <attribute id="Object" type="guid" value="ac3449f7-c09b-4bc0-8634-fcff97d49279"/>
+                        </node>
+                        <node id="Tags">Bard
+                            <attribute id="Object" type="guid" value="d93434bd-6b71-4789-b128-ee24156057cc"/>
+                        </node>
+                        <node id="Tags">Cleric
+                            <attribute id="Object" type="guid" value="1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5"/>
+                        </node>
+                        <node id="Tags">Druid
+                            <attribute id="Object" type="guid" value="44ac4317-4d38-4d28-80e2-94024c6e42f0"/>
+                        </node>
+                        <node id="Tags"> Fighter
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        </node>
+                        <node id="Tags">Monk
+                            <attribute id="Object" type="guid" value="e1e460bb-d0ae-4452-8529-c9e176558731"/>
+                        </node>
+                        <node id="Tags">Paladin
+                            <attribute id="Object" type="guid" value="6d85ab2d-5c23-498c-a61e-98f05a00177a"/>
+                        </node>
+                        <node id="Tags">Paladin Ancients
+                            <attribute id="Object" type="guid" value="7c89622b-4194-41df-b2ff-145a5056ee49"/>
+                        </node>
+                        <node id="Tags">Paladin Devotion
+                            <attribute id="Object" type="guid" value="2de0a4fc-5831-4439-94d3-a7ff9b7aacf6"/>
+                        </node>
+                        <node id="Tags">Paladin Vengeancew
+                            <attribute id="Object" type="guid" value="a1aa47b2-4d0a-4c97-931b-2c53353d5b23"/>
+                        </node>
+                        <node id="Tags"> Paladin Oathbreaker
+                            <attribute id="Object" type="guid" value="c7bdcdf2-15e7-456e-adf1-21dda3172e18"/>
+                        </node>
+                        <node id="Tags">Ranger
+                            <attribute id="Object" type="guid" value="37a733c1-a862-4157-b92a-9cff46232c6a"/>
+                        </node>
+                        <node id="Tags">Ranger Beastmaster
+                            <attribute id="Object" type="guid" value="bfaccaca-e512-43ea-89cc-372b5d1925ee"/>
+                        </node>
+                        <node id="Tags">Ranger Hunter
+                            <attribute id="Object" type="guid" value="5727fd64-090f-4932-a31c-c0e078b2146a"/>
+                        </node>
+                        <node id="Tags">Ranger Gloomstalker
+                            <attribute id="Object" type="guid" value="c023a2ef-b042-443b-b402-b1326f4b49f3"/>
+                        </node>
+                        <node id="Tags">Rouge
+                            <attribute id="Object" type="guid" value="f8a0608b-666c-4be6-a49c-03b369c10bd2"/>
+                        </node>
+                        <node id="Tags">Sorcerer
+                            <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7"/>
+                        </node>
+                        <node id="Tags">Sorcerer Draconic Bloodline
+                            <attribute id="Object" type="guid" value="f6d0e042-5b90-41d8-ab4a-a2239e27a13e"/>
+                        </node>
+                        <node id="Tags"> Sorcerer Wild Magic
+                            <attribute id="Object" type="guid" value="885f8675-e400-4d53-924d-6204ff1d9558"/>
+                        </node>
+                        <node id="Tags">Warlock
+                            <attribute id="Object" type="guid" value="5804f55a-93f7-4281-9512-8d548a9e2a22"/>
+                        </node>
+                        <node id="Tags"> Warlock Fiend
+                            <attribute id="Object" type="guid" value="fbe3ee5d-1bb8-4c0b-a18c-26386101a680"/>
+                        </node>
+                        <node id="Tags"> Warlock Great Old One
+                            <attribute id="Object" type="guid" value="cdad1fc1-352b-4441-82f2-73d8433e42ea"/>
+                        </node>
+                        <node id="Tags">Warlock Archfey
+                            <attribute id="Object" type="guid" value="86de94fa-91a2-4abb-8601-f2ad96c70659"/>
+                        </node>
+                        <node id="Tags"> Wizard
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
+                        </node>
+                        <node id="Tags"> Wizard Necromancer
+                            <attribute id="Object" type="guid" value="90d7fbd5-1264-4bd6-93ba-67c2116e6ab0"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="ClassDescription"> Barbarian
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Barbarian"/>
+					<attribute id="Description" type="TranslatedString" handle="hf6901ec1gd161g47aeg81a6g196d303830af" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h85ceba3bg9cc5g4031gb43ag96c5aeb983eb" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonBarbarian"/>
+                    <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3d2427dd-13de-4ed7-b90a-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Barbarian"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="193e92a1-415a-474a-b627-f45555555555"/>
+                </node>
+				<node id="ClassDescription"> Bard
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Bard"/>
+                    <attribute id="Description" type="TranslatedString" handle="h913d68a7g6e45g4b3ag8e2fgb92c625934d6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h321bf5d1g3b1cg444fgba17gf051b783d843" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonBard"/>
+                    <attribute id="ParentGuid" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cf3959f3-e13b-4a88-9e43-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Bard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="35fc5a73-8d01-4e25-9af3-f45555555555"/>
+                </node>
+				<node id="ClassDescription"> Cleric
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Cleric"/>
+                    <attribute id="Description" type="TranslatedString" handle="hd9360954g6fd9g43d6g8ac4gb405ab5a6afa" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb06eb0aage069g4e27g80deg459e18316d23" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonCleric"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8c7eb2ed-a076-4efa-82bd-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="802d3607-3597-4465-9ee8-f45555555555"/>
+                </node>
+				<node id="ClassDescription"> Druid
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Druid"/>
+                    <attribute id="Description" type="TranslatedString" handle="h8aa7c8f4ga9aeg4574g8035g0a6e8b96ee23" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfe6aa11bg0036g4db7ga45fg1d1bf7f2e974" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonDruid"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f9ddd43c-0bb2-4d80-8fcf-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="e69f184c-7135-4993-a4c5-f45555555555"/>
+                </node>
+				<node id="ClassDescription"> Fighter
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter"/>
+                    <attribute id="Description" type="TranslatedString" handle="h9be33bc2g6565g4569gb429gba40731b0e46" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h32365b79g54c5g4864gaa7cg9db88b78cf6e" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonFighter"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="58498715-41de-4247-a6c1-f45555555555"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="02d5e23c-c5d8-48b9-a302-f45555555555"/>
+                </node>
+                <node id="ClassDescription"> Monk
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Monk"/>
+                    <attribute id="Description" type="TranslatedString" handle="h11ddc902g0e19g4ab0ga1d5g9a0cde1d4b3b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf9b1b0cegef46g47c4ga71age21d05672d26" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonMonk"/>
+                    <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3989b6a0-6458-4677-a97c-b9582f53666b"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="ccc82c19-3bbb-4172-a85d-032330f7045e"/>
+                </node>
+                <node id="ClassDescription"> Paladin
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Vengance"/>
+                    <attribute id="Description" type="TranslatedString" handle="h72c16829g54d5g4b0ag852fg6162bfaa3829" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfd517d15g6185g41ebgb00dg21c19eb3b44f" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonPaladin"/>
+                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6f6ea9bb-ece9-4dea-98ea-b6611164eaee"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="9da32d11-6f42-4e74-aa08-83bdc822ee7d"/>
+                </node>
+                <node id="ClassDescription"> Ranger
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger"/>
+                    <attribute id="Description" type="TranslatedString" handle="he8b66841g0d9bg4734g96e4g8caf45f71160" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h37c9411bgaf80g4766ga2f2gada7489ea26d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonRanger"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1ccbea67-6fa3-42ce-af86-88518b54fa6b"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="6a7fdd50-09bd-4790-a964-b4028268666c"/>
+                </node>
+                <node id="ClassDescription"> Rogue
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Rogue"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbebca182ge4ddg4db0g8408gf598be6bb146" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he2ad2407g85c4g4508g98fbga13e85643dea" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonRogue"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b7c044e1-db8b-47ad-8161-2300a8bcd7c8"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e7f29302-7176-4f9c-b708-d0399d1ea08c"/>
+                </node>
+                <node id="ClassDescription"> Sorcerer
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer"/>
+                    <attribute id="Description" type="TranslatedString" handle="heaf6f6d5gdef2g4777g91e0ge069267fb3da" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdbb4c108g183cg4ee3gb0dfg51c108549168" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonSorcerer"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="43c2064c-9b07-404c-b6ba-4a7eadc34270"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e0cfec19-b10c-42e7-bdaa-1078a2121341"/>
+                </node>
+                <node id="ClassDescription"> Warlock
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Warlock"/>
+                    <attribute id="Description" type="TranslatedString" handle="h07576692gd40ag4cf8g80d1gd72db86df270" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h89e67803gb072g44baga45eg2a57bc9a618e" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonWarlock"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ceb808e2-978c-4d2b-a4e4-81e7f3bf6ac9"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="60da881c-0710-4528-a9c5-d7fadd856675"/>
+                </node>
+                <node id="ClassDescription"> Wizard
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Wizard"/>
+                    <attribute id="Description" type="TranslatedString" handle="h399db476g2bb9g4084g9762g2b9a609e2a51" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7c2cca0dgd41ag4973gb1adgf748bcbf39c3" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ParagonWizard"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c48e7079-afa6-4db5-9ab8-5d30b055c969"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="fa6f0064-f1fa-4155-9b2c-0b9b4fbb50c0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

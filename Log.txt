@@ -1,0 +1,109 @@
+Make Twisting Tree Subclass
+
+V Spell: Spike Growth
+
+V Cascade Augmentation: add spell, 1d8/1d10 quarterstaff, reach
+
+WeaponDamageDieOverride(1d8);
+
+V Add Spell: self heal = 5*spell level, can spell strike
+
+Arcanas: 
+
+V level 3: Student of the Staff: passive to detect critical hit (look at togglable passives, graze), deal cascade dmg, interrupt for knock back
+
+figure out knock back
+
+IsCritical()
+
+ and HasDamageEffectFlag(DamageFlags.Critical)
+
+level 7: fused staff: create a bunch of magical staves, and crafting recipe
+
+V level 9: lunging spellstrike: look at distant spell metamagic and apply a status that add reach to next attack. expires when move
+
+level 19: Supreme Spellstrike: permanent haste
+
+============================================================================
+1. Make Spellstrike (non-expansive) only require a single user input. This should magus feel more fluid but at the same time removing the possibility of "exploits" like TP or jump after a spell to attack a target far away. Of course you can still do it with spellcombat
+
+MOSTLY COMPLETED 2. Add Conflux Spells from Pf2e. Subclass special spells that isn't in any other spell list. Namely: Shielding Strike, Dimensional Assault, Thundering Strike, Shooting Star and Spinning Staff. Those spell will be able to be used once per combat. (like PF2e's focus point systems)
+
+COMPLETE 3. Change Capture Magic arcane cascade to also recharge Conflux spells if you have already used them.
+
+4. Add a class Icon
+
+5. Test and Fix level 13-20 features / Arcanas
+
+6. Add more high level (13-20) Arcanas
+
+7. Change Spell Blending to instead allow Magus to learn scrolls from other classes.
+
+8. Investigate the possibility of "multiple subclass selection" to allow for either Archetypes or Divine/Primal Magus
+
+COMPLETE 9. Rework Twisting Tree's Heal to be more user friendly
+
+COMPLETE 10. Rework Arcane Enhancement (will no longer grant +1, +2, +3 to Attack and dmg rolls to weapon, but will instead change dmg type of weapons)
+
+COMPLETE 11. Rework Knowledge is Power to not make Magus SAD, but instead add int to weapon dmg and no longer require Arcane Enhancement
+
+COMPLETE 12. Rework Cascade Countermeasure to instead allow casting Counterspell with 3AP
+
+COMPLETE 13. Tweak some descriptions (magus' analysis)
+
+COMPLETE 14. Rework Elemental Blade into Elemental Burst
+
+==============================================================================================
+
+Arcane Enhancement Switch Elements
+
+AE 
+    --> Status to Self
+        --> Unlock Spell Switch Element
+    --> Status to Self
+        --> Unlock Spell Elemental Burst
+    --> Elemental Status to Weapon
+    --> Elemental Burst Status to Weapon
+    --> Hidden Status to Weapon (technical)
+
+Switch element
+    --> Check hidden status duration
+    --> Apply Elemental Status to weapon based on Duration
+    --> how to check weapon equipped weapon status
+    --> GetActiveWeapon().AE.Duration?
+
+==============================================================================================
+
+Extended Spellstrike
+
+Cast Spell --> Passive Detect SpellId --> apply status for 1 min --> UnlockSpellVariant
+
+Detect Cast Spell --> Apply status for 1 min --> Unlock some free spell --> casting them --> remove the status
+
+==============================================================================================
+
+Arcanas
+
+Arcane Smite: 1d8 per Apply for maximum of 3AP at level 9
+
+Arcane Ascendency: +1 spell slot of each level that you have
+
+COMPLETE (NEED ICON) Overwhelming Spellstrike: 2AP, ignroe resistance and immunity to all damage for 1 turn.
+
+rework Preternatural Parry: look at Portent 
+
+COMPLETE (NEED TESTING) Add Expanded Cascade: add the additional benefit of cascade to Allies 
+
+investigate possibility of implementing Blade Duality
+
+COMPLETE rework Elemental Blade and Add Elemental Eruption
+
+Add Spellguard: (sparkling targe) uhhh thats going to be hard, whenever a spell is cast nearby, regain 1 AP
+
+Arcane Onslaught: (inexorable iron) expand all remaining AP and deal 2d6 extra force damage per AP spent, once per long rest.
+
+Mystical Attunement: (Twisting Tree) 3AP, legendary resistance, look at legendary resistance
+
+Shadowstep Dance: (Laughing Shadow) no longer trigger attacks of opporunity, bonus damage triggers on every attack
+
+Rain of Magic: make a rain of arrow kinda spell (barrage?) and deal damage in a 3m radius circle 

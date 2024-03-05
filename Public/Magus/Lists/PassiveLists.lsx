@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> Magus Arcana Level 1
+                    <attribute id="Passives" type="LSString" value="Arcana_Familiar,Arcana_Raise_A_Tome,Arcana_Magus_Analysis"/>
+                    <attribute id="UUID" type="guid" value="e6a6d53f-2f03-4e9b-ab4e-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 2
+                    <attribute id="Passives" type="LSString" value="Arcana_ExpansiveSpellStrike,Arcana_SpellParry,Spell_Blending_Cantrip_Druid,Spell_Blending_Cantrip_Cleric,Spell_Blending_Cantrip_Bard,Spell_Blending_Cantrip_Warlock,Spell_Blending_1stLevel_Ranger,Spell_Blending_1stLevel_Druid,Spell_Blending_1stLevel_Cleric,Spell_Blending_1stLevel_Paladin,Spell_Blending_1stLevel_Warlock,Spell_Blending_1stLevel_Bard"/>
+                    <attribute id="UUID" type="guid" value="6450dd97-4cd8-46f0-85a6-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 3 Starlit Span
+                    <attribute id="Passives" type="LSString" value="Arcana_StarlitEyes,Arcana_BodyOfMist,Arcana_SteadySpellcasting"/>
+                    <attribute id="UUID" type="guid" value="a858c1fc-20c7-4bf1-a73a-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 3 Sparkling Targe
+                    <attribute id="Passives" type="LSString" value="Arcana_EmergencyTarge,Arcana_BodyOfMist,Arcana_SteadySpellcasting"/>
+                    <attribute id="UUID" type="guid" value="ed3a4bf3-5d07-4390-99cc-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 3 Inexorable Iron
+                    <attribute id="Passives" type="LSString" value="Arcana_DevastatingSpellStrike,Arcana_BodyOfMist,Arcana_SteadySpellcasting"/>
+                    <attribute id="UUID" type="guid" value="7f968c37-16b6-42ca-830c-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 3 Laughing Shadow
+                    <attribute id="Passives" type="LSString" value="Arcana_DistractingSpellStrike,Arcana_BodyOfMist,Arcana_SteadySpellcasting"/>
+                    <attribute id="UUID" type="guid" value="c8ab76e9-09ff-4b7e-aa66-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 3 Twisting Tree
+                    <attribute id="Passives" type="LSString" value="Arcana_StudentOfTheStaff,Arcana_BodyOfMist,Arcana_SteadySpellcasting"/>
+                    <attribute id="UUID" type="guid" value="cd0b8d07-3bd6-469d-b7d0-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 5
+                    <attribute id="Passives" type="LSString" value="Arcana_CascadeCountermeasure,Arcana_KnowledgeIsPower,Arcana_ThunderingRetaliation,Arcana_Shield_A_Tome"/>
+                    <attribute id="UUID" type="guid" value="fc653d0e-0455-432e-a883-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 7
+                    <attribute id="Passives" type="LSString" value="Arcana_ResonantBlades,Arcana_Spell_Swipe,Arcana_ArcaneCloak,Arcana_CaptureMagic"/>
+                    <attribute id="UUID" type="guid" value="304a1cac-f186-46c2-8f37-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 9 Sparkling Targe
+                    <attribute id="Passives" type="LSString" value="Arcana_RunicImpression,Arcana_CascadingRay,Arcana_DazzlingBlock"/>
+                    <attribute id="UUID" type="guid" value="3577c407-01ca-48e7-97a6-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 9 Inexorable Iron
+                    <attribute id="Passives" type="LSString" value="Arcana_RunicImpression,Arcana_CascadingRay,Arcana_SustainingSteel"/>
+                    <attribute id="UUID" type="guid" value="f87af68c-68fe-4425-9b20-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 9 Starlit Span
+                    <attribute id="Passives" type="LSString" value="Arcana_RunicImpression,Arcana_CascadingRay,Arcana_MeteoricShot"/>
+                    <attribute id="UUID" type="guid" value="d485888e-c575-4eca-8fee-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 9 Laughting Shadow
+                    <attribute id="Passives" type="LSString" value="Arcana_RunicImpression,Arcana_CascadingRay,Arcana_DimensionalDisappearance"/>
+                    <attribute id="UUID" type="guid" value="5fff6c6f-6a0d-4905-b4c6-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 9 Twisting Tree
+                    <attribute id="Passives" type="LSString" value="Arcana_RunicImpression,Arcana_CascadingRay,Arcana_LungingSpellStrike"/>
+                    <attribute id="UUID" type="guid" value="4962caf6-145e-45d0-875b-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 11
+                    <attribute id="Passives" type="LSString" value="Arcana_ElementalBurst,Arcana_ChargeOfTheMagi,Arcana_RapidRecharge,Arcana_OverwhelmingSpellStrike"/>
+                    <attribute id="UUID" type="guid" value="47c8930f-e080-4e83-8575-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 13
+                    <attribute id="Passives" type="LSString" value="Arcana_ArcaneShroud,Arcana_HastedAssault,Arcana_PreternaturalParry,Arcana_ResoundingCascade"/>
+                    <attribute id="UUID" type="guid" value="704105b5-c7b3-4f1c-bf09-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 15
+                    <attribute id="Passives" type="LSString" value="Arcana_BaneBlade,Arcana_ExpandedCascade"/>
+                    <attribute id="UUID" type="guid" value="598f5fe6-4e4d-4a7d-bbd8-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 17
+                    <attribute id="Passives" type="LSString" value="Arcana_ConfluxWellspring,Arcana_ElenmentalEruption"/>
+                    <attribute id="UUID" type="guid" value="e893a79e-a967-49a5-819f-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Magus Arcana Level 19
+                    <attribute id="Passives" type="LSString" value="Arcana_SurpemeSpellStrike,Arcana_WhirlwindSpell"/>
+                    <attribute id="UUID" type="guid" value="456d68e1-e1fb-41e0-9797-f45555555555"/>
+                </node>
+				<node id="PassiveList"> Broad Study
+                    <attribute id="Passives" type="LSString" value="Broad_Study_Spell_Slots1,Broad_Study_Spell_Slots2,Broad_Study_Spell_Slots3,Broad_Study_Spell_Slots4,Broad_Study_MenacingAttack,Broad_Study_PushingAttack,Broad_Study_Rally,Broad_Study_Riposte,Broad_Study_TripAttack,Broad_Study_DisarmingAttack"/>
+                    <attribute id="UUID" type="guid" value="9e991a18-8ecd-4a9c-9021-f45555555555"/>
+                </node>
+				<node id="PassiveList"> True Magus
+                    <attribute id="Passives" type="LSString" value="TM_Strength,TM_Dexterity,TM_Wisdom,TM_Charisma"/>
+                    <attribute id="UUID" type="guid" value="d5e28da9-b97b-45d6-8f18-f45555555555"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
