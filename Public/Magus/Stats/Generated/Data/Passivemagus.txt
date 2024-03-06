@@ -577,7 +577,7 @@ data "Icon" ""
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "not HasStatus('LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK',context.Source) and IsHit() and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack'))
-data "StatsFunctors" "DealDamage(LevelMapValue(ArcaneCascade)+IntelligenceModifier,Force,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
+data "StatsFunctors" "DealDamage(LevelMapValue(Paragon_ArcaneCascade)+IntelligenceModifier,Force,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
 
 new entry "LaughingShadow_ArcaneCascade_Weapon_Damage"
 type "PassiveData"
@@ -587,7 +587,7 @@ data "Icon" ""
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "not HasStatus('LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK',context.Source) and IsHit() and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack'))
-data "StatsFunctors" "DealDamage(LevelMapValue(ArcaneCascade)+IntelligenceModifier,MainWeaponDamageType,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
+data "StatsFunctors" "DealDamage(LevelMapValue(Paragon_ArcaneCascade)+IntelligenceModifier,MainWeaponDamageType,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
 
 new entry "LaughingShadow_ArcaneCascade_Psychic_Damage"
 type "PassiveData"
@@ -597,7 +597,7 @@ data "Icon" ""
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "not HasStatus('LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK',context.Source) and IsHit() and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack'))
-data "StatsFunctors" "DealDamage(LevelMapValue(ArcaneCascade)+IntelligenceModifier,Psychic,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
+data "StatsFunctors" "DealDamage(LevelMapValue(Paragon_ArcaneCascade)+IntelligenceModifier,Psychic,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
 
 new entry "LaughingShadow_ArcaneCascade_Necrotic_Damage"
 type "PassiveData"
@@ -607,7 +607,7 @@ data "Icon" ""
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "not HasStatus('LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK',context.Source) and IsHit() and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack'))
-data "StatsFunctors" "DealDamage(LevelMapValue(ArcaneCascade)+IntelligenceModifier,Necrotic,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
+data "StatsFunctors" "DealDamage(LevelMapValue(Paragon_ArcaneCascade)+IntelligenceModifier,Necrotic,Magical);ApplyStatus(SELF,LAUGHINGSHADOW_ARCANE_CASCADE_DAMAGEBLOCK,100,1)"
 
 // Magus Arcanas Level 1//
 
