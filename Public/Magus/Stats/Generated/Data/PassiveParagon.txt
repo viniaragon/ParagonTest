@@ -1,7 +1,15 @@
-new entry "Paragon_Ability"
+new entry "Paragon_Ability_Boost"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Strength, 18);Ability(Dexterity, 18);Ability(Constitution, 18);Ability(Intelligence, 17);Ability(Wisdom, 17);Ability(Charisma, 17)"
+
+new entry "Paragon_Ability"
+type "PassiveData"
+data "Properties" "IsToggled;ToggledDefaultoff;ToggledDefaultAddToHotbar;Highlighted"
+data "Icon" "PassiveFeature_ExpertDivination"
+data "DisplayName" "hf1016c41gdd71g44fag82bdge07e3ad1d91a"
+data "Description" "ha7cbce5bgfce5g4327ga289g44c40126c6f7"
+data "Boosts" "AbilityOverrideMinimum(Strength, 30);AbilityOverrideMinimum(Dexterity, 30);AbilityOverrideMinimum(Constitution, 30);AbilityOverrideMinimum(Intelligence, 30);AbilityOverrideMinimum(Wisdom, 30);AbilityOverrideMinimum(Charisma, 30)"
 
 new entry "Paragon_Proficiency"
 type "PassiveData"

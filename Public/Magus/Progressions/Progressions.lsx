@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Magus Main Class level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Proficiency(Clubs);Proficiency(Daggers);Proficiency(Flails);Proficiency(HandCrossbows);Proficiency(HeavyArmor);Proficiency(Javelins);Proficiency(LightArmor);Proficiency(LightCrossbows);Proficiency(Longswords);Proficiency(Maces);Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(Morningstars);Proficiency(MusicalInstrument);Proficiency(Quarterstaffs);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Shields);Proficiency(Shortswords);Proficiency(Sickles);Proficiency(SimpleWeapons);Proficiency(Spears);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Wisdom)"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(Clubs);Proficiency(Daggers);Proficiency(Flails);Proficiency(HandCrossbows);Proficiency(HeavyArmor);Proficiency(Javelins);Proficiency(LightArmor);Proficiency(LightCrossbows);Proficiency(Longswords);Proficiency(Maces);Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(Morningstars);Proficiency(MusicalInstrument);Proficiency(Quarterstaffs);Proficiency(Rapiers);Proficiency(Scimitars);Proficiency(Shields);Proficiency(Shortswords);Proficiency(Sickles);Proficiency(SimpleWeapons);Proficiency(Spears);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Wisdom);ActionResource(Rage,10,0);ActionResource(SpellSlot,10,1);ActionResource(SpellSlot,9,2);ActionResource(SpellSlot,8,3);ActionResource(SpellSlot,7,4);ActionResource(SpellSlot,6,5);ActionResource(SpellSlot,5,6);ActionResource(BardicInspiration,10,0);Attribute(UseMusicalInstrumentForCasting);ActionResource(WarPriestActionPoint,10,0);ActionResource(ChannelDivinity,10,0);ActionResource(FungalInfestationCharge,10,0);ActionResource(WildShape,10,0);ActionResource(NaturalRecoveryPoint,5,0);ActionResource(SuperiorityDie,10,0);ActionResource(KiPoint,10,0);ActionResource(DeflectMissiles_Charge,10,0);ActionResource(LayOnHandsCharge,10,0);ActionResource(ChannelOath,10,0);ActionResource(SneakAttack_Charge,10,0);IncreaseMaxHP(ClassLevel(Sorcerer));ActionResource(SorceryPoint,10,0);Tag(SORCERER_METAMAGIC);ActionResource(TidesOfChaos,1,0);ActionResource(WarlockSpellSlot,10,6);Savant(Evocation);Savant(Divination);Savant(Transmutation);Savant(Enchantment);Savant(Conjuration);Savant(Illusion);Savant(Abjuration);Savant(Necromancy);ActionResource(ArcaneRecoveryPoint,5,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
                     <attribute id="PassivesAdded" type="LSString" value="Paragon_Proficiency;Paragon_Ability"/>
@@ -37,29 +37,18 @@
                     <attribute id="Selectors" type="LSString" value=""/>
 					<attribute id="TableUUID" type="guid" value="7fbeecc8-a3b9-4fd1-bb4e-f45555555555"/>
                     <attribute id="UUID" type="guid" value="6fe2ce7b-a1f8-4464-a445-f45555555555"/>
-					<children>
+                    <children>
                         <node id="SubClasses">
                             <children>
-                                <node id="SubClass"> Sparkling Targe
+                                <node id="SubClass"> Barbarian
                                     <attribute id="Object" type="guid" value="193e92a1-415a-474a-b627-f45555555555"/>
-                                </node>
-								<node id="SubClass"> Inexorable Iron
-                                    <attribute id="Object" type="guid" value="35fc5a73-8d01-4e25-9af3-f45555555555"/>
-                                </node>
-								<node id="SubClass"> Laughing Shadow
-                                    <attribute id="Object" type="guid" value="802d3607-3597-4465-9ee8-f45555555555"/>
-                                </node>
-								<node id="SubClass"> Starlit Span
-                                    <attribute id="Object" type="guid" value="e69f184c-7135-4993-a4c5-f45555555555"/>
-                                </node>
-								<node id="SubClass"> Twisting Tree
-                                    <attribute id="Object" type="guid" value="02d5e23c-c5d8-48b9-a302-f45555555555"/>
                                 </node>
                             </children>
                         </node>
                     </children>
                 </node>
 				<node id="Progression"> Level 2
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -80,6 +69,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 3
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -121,6 +111,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 5
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -141,6 +132,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 6
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -161,6 +153,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 7
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -202,6 +195,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 9
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -222,6 +216,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 10
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -243,6 +238,7 @@
                     </children>
                 </node>
 				<node id="Progression"> Level 11
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Paragon"/>
@@ -375,21 +371,20 @@
                     <attribute id="UUID" type="guid" value="7cc1a1db-01e3-40ec-9c12-f45555555555"/>
                 </node>
                 <node id="Progression"> Barbarian
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Rage,2,0);ActionResource(Rage,2,0);ActionResource(Rage,1,0);ActionResource(Rage,1,0);ActionResource(Rage,1,0);ActionResource(Rage,2,0);ActionResource(Rage,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="ParagonBarbarian"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Paragon_DangerSense;Paragon_RageUnlock;Paragon_LandsStride_Surfaces;Paragon_Unstable_Backlash;Paragon_RecklessAttack;Paragon_FastMovement;Paragon_RageFrenzyUnlock;Paragon_Rage_Armour_Message;Paragon_WildMagicRage;Paragon_LandsStride_DifficultTerrain;Paragon_LandsStride_Advantage;Paragon_FeralInstinct;Paragon_UnarmouredDefence_Barbarian;Paragon_ExtraAttack;Paragon_RelentlessRage;Paragon_BrutalCritical;Paragon_MindlessRage;Paragon_Rage_NoHeavyArmour_VFX"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Paragon_RageFrenzyUnlock;Paragon_AspectOfTheBeast_Chimpanzee;Paragon_ExtraAttack;Paragon_AspectOfTheBeast_Eagle;Paragon_RageUnlock;Paragon_AspectOfTheBeast_Stallion;Paragon_TotemSpirit_Wolf;Paragon_LandsStride_DifficultTerrain;Paragon_DangerSense;Paragon_AspectOfTheBeast_Wolf;Paragon_TotemSpirit_Eagle;Paragon_FastMovement;Paragon_TotemSpirit_Bear;Paragon_TotemSpirit_Elk;Paragon_AspectOfTheBeast_Bear;Paragon_AspectOfTheBeast_Crocodile;Paragon_LandsStride_Surfaces;Paragon_AspectOfTheBeast_Tiger;Paragon_AspectOfTheBeast_HoneyBadger;Paragon_RecklessAttack;Paragon_LandsStride_Advantage;Paragon_MindlessRage;Paragon_AspectOfTheBeast_Elk;Paragon_FeralInstinct;Paragon_AspectOfTheBeast_Wolverine;Paragon_TotemSpirit_Tiger;Paragon_WildMagicRage;Paragon_BrutalCritical;Paragon_UnarmouredDefence_Barbarian;Paragon_Rage_Armour_Message;Paragon_Unstable_Backlash;Paragon_Rage_NoHeavyArmour_VFX;Paragon_RelentlessRage"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(70e269c0-1905-4e47-9894-dba2aab5370c)"/>
                     <attribute id="TableUUID" type="guid" value="3d2427dd-13de-4ed7-b90a-f45555555555"/>
                     <attribute id="UUID" type="guid" value="69fb0860-b829-4289-b42b-f45555555555"/>
                 </node>
-				
                 <node id="Progression"> Bard
-                    <attribute id="Boosts" type="LSString" value="ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);Attribute(UseMusicalInstrumentForCasting);ActionResource(BardicInspiration,3,0);Attribute(UseMusicalInstrumentForCasting);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(BardicInspiration,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(BardicInspiration,3,0);ActionResource(SpellSlot,2,1);Attribute(UseMusicalInstrumentForCasting);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(BardicInspiration,1,0);ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="ParagonBard"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Paragon_BardicInspiration_d8;Paragon_CombatInspiration;Paragon_BardicInspiration;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_BardSpellcasting;Paragon_UnlockedSpellSlotLevel2;Paragon_JackOfAllTrades;Paragon_BardicInspiration_d10;Paragon_ExtraAttack;Paragon_CuttingWords;Paragon_FontOfInspiration"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2;Paragon_CuttingWords;Paragon_BardicInspiration_d10;Paragon_BardSpellcasting;Paragon_FightingStyle_Dueling;Paragon_BardicInspiration_d8;Paragon_CombatInspiration;Paragon_FightingStyle_TwoWeaponFighting;Paragon_FontOfInspiration;Paragon_BardicInspiration;Paragon_JackOfAllTrades"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(11532744-bf91-4391-80ea-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="cf3959f3-e13b-4a88-9e43-f45555555555"/>
@@ -397,10 +392,10 @@
                 </node>
 				
 				<node id="Progression"> Cleric
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,3);ActionResource(ChannelDivinity,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(WarPriestActionPoint,3,0);ActionResource(WarPriestActionPoint,1,0);ActionResource(WarPriestActionPoint,1,0);ActionResource(WarPriestActionPoint,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="ParagonCleric"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_WardingFlare_Improved;Paragon_WrathOfTheStorm;Paragon_AcolyteOfNature;Paragon_DivineIntervention;Paragon_Divine_Strike_Tempest_Toggle;Paragon_DestroyUndead;Paragon_ThunderboltStrike;Paragon_UnlockedSpellSlotLevel1;Paragon_WarPriest;Paragon_Divine_Strike_Trickery_Toggle;Paragon_WarGodsBlessing;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2;Paragon_DiscipleOfLife;Paragon_PotentSpellcasting;Paragon_BlessedHealer;Paragon_DampenElements;Paragon_DomainSpells;Paragon_Divine_Strike_Life_Toggle;Paragon_WardingFlare;Paragon_Divine_Strike_War_Toggle;Paragon_DestructiveWrath;Paragon_Divine_Strike_Nature_Toggle"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Divine_Strike_Life_Toggle;Paragon_DivineIntervention;Paragon_BlessedHealer;Paragon_Divine_Strike_War_Toggle;Paragon_WardingFlare_Improved;Paragon_DomainSpells;Paragon_Divine_Strike_Tempest_Toggle;Paragon_ThunderboltStrike;Paragon_AcolyteOfNature;Paragon_WarPriest;Paragon_DampenElements;Paragon_Divine_Strike_Nature_Toggle;Paragon_WrathOfTheStorm;Paragon_Divine_Strike_Trickery_Toggle;Paragon_PotentSpellcasting;Paragon_WarGodsBlessing;Paragon_DestructiveWrath;Paragon_WardingFlare;Paragon_DestroyUndead;Paragon_DiscipleOfLife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(d29e629a-ce83-44ee-98b1-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="8c7eb2ed-a076-4efa-82bd-f45555555555"/>
@@ -408,10 +403,10 @@
                 </node>
 				
 				<node id="Progression"> Druid
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="ParagonDruid"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_WildStrike;Paragon_WildStrike_2;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Land_Underdark;Paragon_Land_Arctic;Paragon_WildShape_Combat;Paragon_Land_Desert;Paragon_Land_Grassland;Paragon_Land_Mountain;Paragon_SpreadingSpores;Paragon_WildStrike;Paragon_Land_Arctic_4;Paragon_Land_Coast_4;Paragon_Land_Desert_4;Paragon_Land_Forest_4;Paragon_Land_Grassland_4;Paragon_Land_Mountain_4;Paragon_Land_Swamp_4;Paragon_Land_Underdark_4;Paragon_Land_Arctic_3;Paragon_Land_Coast_3;Paragon_Land_Desert_3;Paragon_Land_Forest_3;Paragon_Land_Grassland_3;Paragon_Land_Mountain_3;Paragon_Land_Swamp_3;Paragon_Land_Underdark_3;Paragon_Land_Swamp;Paragon_NaturesWard;Paragon_Land_Arctic_2;Paragon_Land_Coast_2;Paragon_Land_Desert_2;Paragon_Land_Forest_2;Paragon_Land_Grassland_2;Paragon_Land_Mountain_2;Paragon_Land_Swamp_2;Paragon_Land_Underdark_2;Paragon_Land_Forest;Paragon_Land_Coast;Paragon_WildStrike_2;Paragon_PrimalStrike"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(e517c6b7-4e71-484a-9609-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="f9ddd43c-0bb2-4d80-8fcf-f45555555555"/>
@@ -419,10 +414,10 @@
                 </node>
 				
 				<node id="Progression"> Fighter
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SuperiorityDie,4,0);ActionResource(SuperiorityDie,1,0);ActionResource(SuperiorityDie,4,0)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="ParagonFighter"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_Indomitable;Paragon_ExtraAttack_2;Paragon_ImprovedCombatSuperiority;Paragon_UnlockedSpellSlotLevel1;Paragon_EldritchStrike;Paragon_UnlockedSpellSlotLevel2;Paragon_RemarkableAthlete_Proficiency;Paragon_ExtraAttack;Paragon_WarMagic;Paragon_ImprovedCritical;Paragon_RemarkableAthlete_Jump"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_PrecisionAttack;Paragon_Riposte;Paragon_ImprovedCritical;Paragon_ImprovedCritical;Paragon_EvasiveFootwork;Paragon_RemarkableAthlete_Jump;Paragon_RemarkableAthlete_Proficiency;Paragon_FightingStyle_GreatWeaponFighting;Paragon_Indomitable;Paragon_DistractingStrike;Paragon_TripAttack;Paragon_FightingStyle_Protection;Paragon_DisarmingAttack;Paragon_SweepingAttack;Paragon_ImprovedCombatSuperiority;Paragon_MenacingAttack;Paragon_PushingAttack;Paragon_WarMagic;Paragon_FightingStyle_Defense;Paragon_GoadingAttack;Paragon_ManeuveringAttack;Paragon_FightingStyle_Archery;Paragon_CommanderStrike_Maneuver;Paragon_ExtraAttack_2;Paragon_FeintingAttack;Paragon_EldritchStrike;Paragon_Rally"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(291a55ed-ec20-405d-b7e4-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="58498715-41de-4247-a6c1-f45555555555"/>
@@ -430,10 +425,10 @@
                 </node>
 
                 <node id="Progression"> Monk
-                    <attribute id="Boosts" type="LSString" value="ActionResource(KiPoint,2,0);ActionResource(KiPoint,2,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0);ActionResource(KiPoint,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="ParagonMonk"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_SlowFall;Paragon_PurityOfBody;Paragon_UnarmoredMovement_2;Paragon_MartialArts_DextrousUnarmedAttacks;Paragon_Manifestation_of_Soul;Paragon_Monk_SoundSwitch;Paragon_StillnessOfMind;Paragon_UnarmoredDefense_Monk;Paragon_Manifestation_of_Body;Paragon_ExtraAttack;Paragon_MartialArts_BonusUnarmedStrike;Paragon_ImprovedElementalCasting;Paragon_UnarmoredMovement_DifficultTerrain;Paragon_Evasion;Paragon_Manifestation_of_Mind;Paragon_KiEmpoweredStrikes;Paragon_DeflectMissiles;Paragon_MartialArts_UnarmedDamage;Paragon_Tranquility;Paragon_UnarmoredMovement_1;Paragon_UnarmoredMovement_3;Paragon_FlurryOfBlowsUnlock"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Manifestation_of_Soul;Paragon_SlowFall;Paragon_Manifestation_of_Mind;Paragon_FlurryOfBlowsUnlock;Paragon_UnarmoredMovement_1;Paragon_UnarmoredMovement_3;Paragon_ImprovedElementalCasting;Paragon_Evasion;Paragon_UnarmoredDefense_Monk;Paragon_DeflectMissiles;Paragon_MartialArts_UnarmedDamage;Paragon_Tranquility;Paragon_UnarmoredMovement_DifficultTerrain;Paragon_Monk_SoundSwitch;Paragon_MartialArts_BonusUnarmedStrike;Paragon_KiEmpoweredStrikes;Paragon_PurityOfBody;Paragon_StillnessOfMind;Paragon_Manifestation_of_Body;Paragon_MartialArts_DextrousUnarmedAttacks;Paragon_UnarmoredMovement_2"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(948bfc3f-217d-4eb9-ac8c-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="3989b6a0-6458-4677-a97c-b9582f53666b"/>
@@ -441,10 +436,10 @@
                 </node>
 
                 <node id="Progression"> Paladin
-                    <attribute id="Boosts" type="LSString" value="ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(LayOnHandsCharge,1,0);ActionResource(SpellSlot,1,3);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(LayOnHandsCharge,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="ParagonPaladin"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_RelentlessAvenger;Paragon_Oath_Ancients_Tenents;Paragon_DivineHealth;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel2;Paragon_Oath_Devotion_Tenents;Paragon_ExtraAttack;Paragon_ImprovedDivineSmite;Paragon_Smite_Divine;Paragon_Oath_Vengeance_Tenents"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Oath_Devotion_Tenents;Paragon_ImprovedDivineSmite;Paragon_RelentlessAvenger;Paragon_DivineHealth;Paragon_Oath_Vengeance_Tenents;Paragon_Smite_Divine;Paragon_Oath_Ancients_Tenents"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(7a2814ba-9a4c-4a9d-809c-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="6f6ea9bb-ece9-4dea-98ea-b6611164eaee"/>
@@ -452,10 +447,10 @@
                 </node>
 
                 <node id="Progression"> Ranger
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="ParagonRanger"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_LandsStride_Surfaces;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_LandsStride_DifficultTerrain;Paragon_CompanionsBond;Paragon_UnlockedSpellSlotLevel2;Paragon_ExceptionalTraining;Paragon_IronMind;Paragon_DreadAmbusher;Paragon_SuperiorDarkvision;Paragon_ExtraAttack;Paragon_BestialFury;Paragon_StalkersFlurry"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_FavoredEnemy_RangerKnight;Paragon_EscapeTheHorde;Paragon_HordeBreaker;Paragon_CompanionsBond;Paragon_MultiattackDefense;Paragon_NaturalExplorer_BeastTamer;Paragon_FavoredEnemy_BountyHunter;Paragon_IronMind;Paragon_SteelWill;Paragon_BestialFury;Paragon_NaturalExplorer_WastelandWander_Cold;Paragon_GiantKiller;Paragon_FavoredEnemy_SanctifiedStalker;Paragon_NaturalExplorer_WastelandWander_Poison;Paragon_NaturalExplorer_WastelandWander_Fire;Paragon_SuperiorDarkvision;Paragon_DreadAmbusher;Paragon_FavoredEnemy_KeeperOfTheVeil;Paragon_FavoredEnemy_MageBreaker;Paragon_StalkersFlurry;Paragon_ExceptionalTraining;Paragon_ColossusSlayer;Paragon_NaturalExplorer_UrbanTracker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(7f0b51ee-540e-4104-891d-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="1ccbea67-6fa3-42ce-af86-88518b54fa6b"/>
@@ -463,10 +458,10 @@
                 </node>
 
                 <node id="Progression"> Rouge
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SneakAttack_Charge,1,0);ActionResource(SneakAttack_Charge,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="ParagonRouge"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_MageHandLegerdemain;Paragon_FastHands;Paragon_SecondStoryWork;Paragon_MagicalAmbush;Paragon_UncannyDodge;Paragon_Assassinate_Initiative;Paragon_Evasion;Paragon_ReliableTalent;Paragon_UnlockedSpellSlotLevel1;Paragon_SneakAttack_Unlock;Paragon_UnlockedSpellSlotLevel2;Paragon_Assassinate_Resource;Paragon_Assassinate_Ambush"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_UncannyDodge;Paragon_ReliableTalent;Paragon_MagicalAmbush;Paragon_FastHands;Paragon_Assassinate_Initiative;Paragon_Assassinate_Ambush;Paragon_SecondStoryWork;Paragon_SneakAttack_Unlock;Paragon_Assassinate_Resource;Paragon_MageHandLegerdemain"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(77191793-bdc8-4bc2-bb25-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="b7c044e1-db8b-47ad-8161-2300a8bcd7c8"/>
@@ -474,10 +469,10 @@
                 </node>
 
                 <node id="Progression"> Sorcerer
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,3);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,5);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,6);ActionResource(SorceryPoint,1,0);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,2,1);ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,1,2);ActionResource(SorceryPoint,1,0);ActionResource(SpellSlot,2,3);ActionResource(SorceryPoint,1,0);IncreaseMaxHP(ClassLevel(Sorcerer));ActionResource(TidesOfChaos,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="ParagonSorcerer"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_DraconicResilience;Paragon_ElementalAffinity_Resistance_Check;Paragon_ControlledChaos;Paragon_UnlockedSpellSlotLevel1;Paragon_UnlockedSpellSlotLevel3;Paragon_WildMagic;Paragon_ElementalAffinity_Damage;Paragon_UnlockedSpellSlotLevel2;Paragon_TidesOfChaos_Unlock;Paragon_StormsFury;Paragon_HeartOfTheStorm;Paragon_TempestuousMagic;Paragon_BendLuck;Paragon_HeartOfTheStorm_Resistance;Paragon_TidesOfChaos"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_TempestuousMagic;Paragon_Metamagic_Distant;Paragon_DraconicAncestry_Silver;Paragon_Metamagic_Subtle;Paragon_ElementalAffinity_Damage;Paragon_DraconicAncestry_Bronze;Paragon_DraconicAncestry_Red;Paragon_ControlledChaos;Paragon_DraconicAncestry_White;Paragon_TidesOfChaos;Paragon_TidesOfChaos_Unlock;Paragon_DraconicAncestry_Copper;Paragon_Metamagic_Extended;Paragon_HeartOfTheStorm_Resistance;Paragon_Metamagic_Twinned;Paragon_DraconicAncestry_Green;Paragon_WildMagic;Paragon_ElementalAffinity_Resistance_Check;Paragon_Metamagic_Quickened;Paragon_Metamagic_Heightened;Paragon_HeartOfTheStorm;Paragon_Metamagic_Careful;Paragon_DraconicAncestry_Gold;Paragon_DraconicAncestry_Black;Paragon_DraconicAncestry_Brass;Paragon_StormsFury;Paragon_BendLuck;Paragon_DraconicAncestry_Blue;Paragon_DraconicResilience"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(70e8c5aa-a8ae-4f54-acd9-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="43c2064c-9b07-404c-b6ba-4a7eadc34270"/>
@@ -485,10 +480,10 @@
                 </node>
 
                 <node id="Progression"> Warlock
-                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,2,4);ActionResourceOverride(WarlockSpellSlot,0,3);ActionResource(WarlockSpellSlot,2,5);ActionResourceOverride(WarlockSpellSlot,0,4);ActionResource(WarlockSpellSlot,1,5);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,1,1);ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1);ActionResource(WarlockSpellSlot,2,3);ActionResourceOverride(WarlockSpellSlot,0,2)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="ParagonWarlock"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_BeguilingDefenses;Paragon_ThirstingBlade_Blade;Paragon_FiendishResilience;Paragon_ThirstingBlade_Tome;Paragon_MistyEscape;Paragon_DarkOnesOwnLuck;Paragon_ClarifiedMortality;Paragon_UnlockedWarlockSpellSlotLevel3;Paragon_EntropicWard;Paragon_UnlockedWarlockSpellSlotLevel1;Paragon_Thought_Shield_Psychic_Resistance;Paragon_DarkOnesBlessing;Paragon_Thought_Shield_Psychic_Reflection;Paragon_UnlockedWarlockSpellSlotLevel2;Paragon_ThirstingBlade_Check"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_Thought_Shield_Psychic_Reflection;Paragon_DarkOnesOwnLuck;Paragon_OtherworldlyLeap;Paragon_ClarifiedMortality;Paragon_ArmorOfShadows;Paragon_BookOfAncientSecrets;Paragon_RepellingBlast;Paragon_ThirstingBlade_Tome;Paragon_UnlockedWarlockSpellSlotLevel2;Paragon_ThirstingBlade_Check;Paragon_UnlockedWarlockSpellSlotLevel3;Paragon_MinionsOfChaos;Paragon_Lifedrinker;Paragon_MireTheMind;Paragon_FiendishResilience;Paragon_FiendishVigor;Paragon_OneWithShadows;Paragon_DarkOnesBlessing;Paragon_PactOfTheChain;Paragon_WhispersOfTheGrave;Paragon_ThiefOfFiveFates;Paragon_BeastSpeech;Paragon_BeguilingInfluence;Paragon_MaskOfManyFaces;Paragon_ThirstingBlade_Blade;Paragon_SculptorOfFlesh;Paragon_DreadfulWord;Paragon_AgonizingBlast;Paragon_SignOfIllOmen;Paragon_Thought_Shield_Psychic_Resistance;Paragon_MistyEscape;Paragon_UnlockedWarlockSpellSlotLevel1;Paragon_EntropicWard;Paragon_DevilsSight;Paragon_BeguilingDefenses"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(3dff0d07-cbee-493c-9661-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="ceb808e2-978c-4d2b-a4e4-81e7f3bf6ac9"/>
@@ -496,10 +491,10 @@
                 </node>
 
                 <node id="Progression"> Wizard
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,4);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,5);ActionResource(SpellSlot,1,6);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,2,1);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,2,3);ActionResource(ArcaneRecoveryPoint,1,0);Savant(Abjuration);Savant(Abjuration);Savant(Conjuration);Savant(Divination);Savant(Enchantment);Savant(Evocation);Savant(Necromancy);Savant(Illusion);Savant(Transmutation"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="ParagonWizard"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_ProjectedWard;Paragon_TransmutationStone;Paragon_ArcaneWard_Cast;Paragon_SculptSpells;Paragon_GrimHarvest;Paragon_InstinctiveCharm;Paragon_EmpoweredEvocation;Paragon_ImprovedAbjuration;Paragon_ImprovedMinorIllusion;Paragon_UnlockedSpellSlotLevel1;Paragon_UndeadThrall_FreeSpell;Paragon_TransmutationStone_Activation;Paragon_FocusedConjuration;Paragon_ExperimentalAlchemy;Paragon_ArcaneWard;Paragon_UnlockedSpellSlotLevel3;Paragon_UnlockedSpellSlotLevel2;Paragon_ExpertDivination;Paragon_InuredtoUndeath;Paragon_PotentCantrip;Paragon_Portent;Paragon_IllusorySelf;Paragon_UndeadThrall_BetterSummon;Paragon_SplitEnchantment;Paragon_UndeadThrall_ExtraSummon;Paragon_Shapechange"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_TransmutationStone_Activation;Paragon_ArcaneWard;Paragon_SculptSpells;Paragon_ExpertDivination;Paragon_IllusorySelf;Paragon_FocusedConjuration;Paragon_SplitEnchantment;Paragon_UndeadThrall_BetterSummon;Paragon_EmpoweredEvocation;Paragon_Portent;Paragon_UndeadThrall_ExtraSummon;Paragon_TransmutationStone;Paragon_PotentCantrip;Paragon_ArcaneWard_Cast;Paragon_ProjectedWard;Paragon_InuredtoUndeath;Paragon_ImprovedAbjuration;Paragon_Shapechanger;Paragon_ExperimentalAlchemy;Paragon_UndeadThrall_FreeSpell;Paragon_GrimHarvest;Paragon_InstinctiveCharm;Paragon_ImprovedMinorIllusion"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(e07c5b4b-22ee-4906-bb53-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="c48e7079-afa6-4db5-9ab8-5d30b055c969"/>

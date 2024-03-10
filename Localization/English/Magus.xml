@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <contentList>
-	<content contentuid="heeb6ddb3g39efg4709g8e06gc039ef84f180" version="1">Magus</content> Class Description
-	<content contentuid="h11b4ee7egb42bg4194g8367g82d678fc0c00" version="1">The Magus is at once a student of two philosophies, blending magical ability and martial prowess into something entirely unique, a discipline in which both spell and steel are used to devastating effect.</content>
+	<content contentuid="heeb6ddb3g39efg4709g8e06gc039ef84f180" version="1">Paragon</content> Class Description
+	<content contentuid="h11b4ee7egb42bg4194g8367g82d678fc0c00" version="1">Paragon es un ser mistico em crecimiento con el poder de toda as classes</content>
 	<content contentuid="h85ceba3bg9cc5g4031gb43ag96c5aeb983eb" version="1">Paragon Barbarian</content>
 	<content contentuid="hf6901ec1gd161g47aeg81a6g196d303830af" version="1">Senhor da fúria desenfreada, capaz de devastar exércitos com um único golpe.</content>
 	<content contentuid="h321bf5d1g3b1cg444fgba17gf051b783d843" version="1">Paragon Bard</content>
@@ -336,8 +336,8 @@
 	<content contentuid="hf7263d8dgd133g42f6ga872g5e85394a4386" version="1">When you miss a spellstrike with you main hand weapon, you may attempt another spellstrike as a bonus action with your offhand weapon. Missing the attack part of an Expansive Spellstrike would not trigger this.</content>
 	<content contentuid="he78c4025g49f3g4811ga146g397579cbfb5a" version="1">Resonant Blade SpellStrike</content>
 	<content contentuid="ha7591b7eg29bfg4e33g85bcgfd498be9fea6" version="1">Make a spellstrike as a bonus action with your offhand weapon.</content>
-	<content contentuid="hf1016c41gdd71g44fag82bdge07e3ad1d91a" version="1">Extended Spell</content>
-	<content contentuid="ha7cbce5bgfce5g4327ga289g44c40126c6f7" version="1">Your next cast of a spell does not cost a spell slot.</content>
+	<content contentuid="hf1016c41gdd71g44fag82bdge07e3ad1d91a" version="1">Atributos Paragon</content>
+	<content contentuid="ha7cbce5bgfce5g4327ga289g44c40126c6f7" version="1">Aumento de atributos Paragon</content>
 	<content contentuid="" version="1"/>
 	<content contentuid="" version="1"/>
 	<content contentuid="" version="1"/>

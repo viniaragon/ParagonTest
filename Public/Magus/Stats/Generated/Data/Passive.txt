@@ -1733,7 +1733,7 @@ data "Boosts" "ProficiencyBonus(Skill,SleightOfHand);ProficiencyBonus(Skill,Stea
 new entry "Paragon_SPELLS_PASSIVES"
 type "PassiveData"
 
-new entry "Paragon_ArcaneWard"
+new entry "Paragon_ArcaneWard_sha"
 type "PassiveData"
 data "DisplayName" "h7bfd2340gd0f4g425fgb3e9gd2331d75c6ef;2"
 data "Description" "h3ec48f72g32f6g4ce7gb7e1ge8d681582f75;2"
