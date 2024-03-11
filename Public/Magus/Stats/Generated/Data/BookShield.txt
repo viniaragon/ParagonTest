@@ -322,19 +322,19 @@ data "Properties" "OncePerShortRest"
 data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
 data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "not Dead() and HasHPPercentageWithoutTemporaryHPLessThan(50, context.Target)"
-data "StatsFunctors" "ApplyStatus(BOOKSHIELD_TEMPHP_1,100,-1)"
+data "StatsFunctors" "ApplyStatus(Paragon_BOOKSHIELD_TEMPHP_1,100,-1)"
 
 new entry "BookShield_LowHP_TemporaryHP_Passive_2"
 type "PassiveData"
 using "BookShield_LowHP_TemporaryHP_Passive_1"
 data "DescriptionParams" "10"
-data "StatsFunctors" "ApplyStatus(BOOKSHIELD_TEMPHP_2,100,-1)"
+data "StatsFunctors" "ApplyStatus(Paragon_BOOKSHIELD_TEMPHP_2,100,-1)"
 
 new entry "BookShield_LowHP_TemporaryHP_Passive_3"
 type "PassiveData"
 using "BookShield_LowHP_TemporaryHP_Passive_1"
 data "DescriptionParams" "15"
-data "StatsFunctors" "ApplyStatus(BOOKSHIELD_TEMPHP_3,100,-1)"
+data "StatsFunctors" "ApplyStatus(Paragon_BOOKSHIELD_TEMPHP_3,100,-1)"
 
 // Status //
 

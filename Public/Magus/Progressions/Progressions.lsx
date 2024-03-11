@@ -406,7 +406,8 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="ParagonDruid"/>
-					<attribute id="PassivesAdded" type="LSString" value="Paragon_Land_Underdark;Paragon_Land_Arctic;Paragon_WildShape_Combat;Paragon_Land_Desert;Paragon_Land_Grassland;Paragon_Land_Mountain;Paragon_SpreadingSpores;Paragon_WildStrike;Paragon_Land_Arctic_4;Paragon_Land_Coast_4;Paragon_Land_Desert_4;Paragon_Land_Forest_4;Paragon_Land_Grassland_4;Paragon_Land_Mountain_4;Paragon_Land_Swamp_4;Paragon_Land_Underdark_4;Paragon_Land_Arctic_3;Paragon_Land_Coast_3;Paragon_Land_Desert_3;Paragon_Land_Forest_3;Paragon_Land_Grassland_3;Paragon_Land_Mountain_3;Paragon_Land_Swamp_3;Paragon_Land_Underdark_3;Paragon_Land_Swamp;Paragon_NaturesWard;Paragon_Land_Arctic_2;Paragon_Land_Coast_2;Paragon_Land_Desert_2;Paragon_Land_Forest_2;Paragon_Land_Grassland_2;Paragon_Land_Mountain_2;Paragon_Land_Swamp_2;Paragon_Land_Underdark_2;Paragon_Land_Forest;Paragon_Land_Coast;Paragon_WildStrike_2;Paragon_PrimalStrike"/>
+					<attribute id="PassivesAdded" type="LSString" value="Paragon_WildShape_Combat;Paragon_SpreadingSpores;Paragon_WildStrike;
+                    Paragon_NaturesWard;Paragon_WildStrike_2;Paragon_PrimalStrike"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(e517c6b7-4e71-484a-9609-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="f9ddd43c-0bb2-4d80-8fcf-f45555555555"/>
