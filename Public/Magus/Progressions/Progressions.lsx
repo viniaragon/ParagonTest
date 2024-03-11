@@ -407,7 +407,7 @@
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="ParagonDruid"/>
 					<attribute id="PassivesAdded" type="LSString" value="Paragon_WildShape_Combat;Paragon_SpreadingSpores;Paragon_WildStrike;
-                    Paragon_NaturesWard;Paragon_WildStrike_2;Paragon_PrimalStrike"/>
+                   Paragon_NaturesWard;Paragon_WildStrike_2;Paragon_PrimalStrike"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(e517c6b7-4e71-484a-9609-f45555555555)"/>
                     <attribute id="TableUUID" type="guid" value="f9ddd43c-0bb2-4d80-8fcf-f45555555555"/>
